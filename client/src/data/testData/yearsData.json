@@ -1,0 +1,4409 @@
+
+[{
+    "year": "1953",
+    "imgSrc": "url(http://corvetteinformed.com/Images/1953Corvette.jpg)",
+    "alt": "1953 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "The first Corvette started off as an idea pushed by Harley Earl, GM's head of styling and a fan of sporting (sports) cars. Harley recognized the growing postwar demand for luxury and sports cars after seeing GI's bringing home cars from foreign manufacturers such as Fiat, MG, Alfa-Romeo and Jaguar. At the time, no other domestic manufacturer was producing a vehicle that fit these categories while being priced low enough to be considered by the returning GI's, so Earl went to GM and convinced them of the need for an all-American sports car. Having gotten the go ahead, Earl, assisted by his Special Projects crew and Head of Experimental Styling Bob McLean, began work on the new concept car in late 1951.", 
+            "image": "/images/fiat-1100-tv-spider-old.jpg" },
+          { "text": "Codenamed Project Opel, the car took 2 years to produce, and was eventually revealed at the General Motors Motorama at the Waldorf-Astoria on January 17th, 1953. The car on display was designated EX-122, the serial number used for the concept car (with the EX standing for experimental), and showcased a full fiberglass body, the first to be used on any production car at the time. The positive public reaction the concept received at Motorama was incredible and served to strengthen GM's resolve to bring the car to market as soon as possible. While not the first postwar sports car to be produced (that title goes to the Crosley Hotshot), the Corvette would be GM's first all-American sports car since the Chevrolet Master in 1938.", 
+            "image": "/images/EX-122.jpg",
+          "imageAlt": "EX-122 Corvette" },
+          { "text": "Following the Motorama, GM green-lit the production of the Corvette, setting a target of 50 vehicles produced per month and a total limit of 300 cars. The first Corvettes wouldn't be built until early June of 1953, with the first production model being completed on June 30th of the same year. However, before production had even started, all 300 units had been spoken for, a practice unheard of at the time. While exciting at first, this was the start of some significant problems the C1 would encounter.", 
+            "image": "/images/Corvette-No-1.jpg", 
+            "imageAlt": "The first production Corvette" },
+          { "text": "One of the main issues plaguing first year production was the fitment of the fiberglass body. At the time, fiberglass molding techniques were in their infancy, and as a result most of the 46 fiberglass body pieces had defects that would not allow them to fit together properly. These defects had to be corrected by hand at the time of fitment which, when cosidering all 300 units were put together in the back of a customer delivery garage, caused significant delays in production. To reduce delays, and because the first few Corvettes were literally being engineered as they were assembled, all 300 units were sold with the same features and options.", 
+            "image": "/images/1953-Corvette-Body-Parts.jpg", 
+            "imageAlt": "1953 Corvette Body Pieces" },
+          {
+            "text": "The post-production Corvettes didn't receive anywhere near the same positive reactions that the EX-122 had during Motorama either. While being marketed as a luxury \"sports car\", the 1953 model year was powered by a \"Blue Flame\" inline 6-cylinder motor that produced only 150hp. The Blue Flame did boast better performance the the Stovebolt motor it was based off of, with a more aggresive cam, solid lifters, dual valve springs, an upgraded air intake and triple Carter-YH Sidedraft carburetors, but the 45hp bump still didn't satisfy customers and GM refused to share any of it's V8 motors with the new concept car. That, and the 2-speed Powerglide Automatic, which at the time of production would not always shift from low to high gearing, made the Corvette slow off the line and gave it an awful 0-60 time of just over 11.2 seconds.",
+            "image":"/images/1953-Blue-Flame-Engine.jpg",
+            "imageAlt":"Blue Flame Inline 6-Cylinder Motor"
+          },
+          {
+            "text": "The comfort and convenience marketing also hurt the Corvettes sports car image. Customers at the time expected a sports car to be raw and uncomprimising, and the compact 2 door luxury design had a hard time winning over both sports car enthusiasts and those looking for a weekend cruiser. With the body issues and production rush, manual or power windows were instead swapped out for crude plexi glass inserts which were prone to leaking, and the jet-age inspired interior, while stylish, was mostly non functional.", 
+            "image": "/images/1953_Corvette_Interior.jpg", 
+            "imageAlt": "1953 Corvette Interior" 
+          },
+          {
+            "text": "With the public opinion of the Corvette turning sour, GM attempted to improve the cars image as a prestige car by restricting sales to VIP's in each community. The intent behind this was to market pre-sales of the Corvette, relying on testimonials from VIP owners and a campaign that praised the cars styling, performance and grandeur. While normally an ingenious campaign, VIP's of the first cars didn't like it anywhere near as much as GM had hoped, and the inflated final price of $3490 put the car out of the affordable price range of those it was marketed towards. Though all units were sold, the Corvette was starting to look like a potential failure, and GM really began to question the viability of this new sports car.", 
+            "image": "/images/1953_Corvette_Rear.png",
+          "imageAlt": "1953 Corvette Rear" 
+          }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "235ci 'Blue Flame' Inline Six-Cylinder",
+              "2 Speed Powerglide Automatic Transmission"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Independent front suspension with antiroll bar", "Live axle on rear leaf spring suspension", "3.55:1 Rear End Axle Ratio"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Hydrualic Drum Brakes, front and rear"]
+          },
+          { "label": "Color Scheme", "data": ["Polo White with Sportsman Red Interior, Black Soft Top"] },
+          {
+            "label": "Interior Options",
+            "data": ["Plastic-Coated Fabric Interior", "Heater", "AM/FM Radio"]
+          },
+          {
+            "label": "Exterior Options",
+            "data": ["Steel disc rims, 15 x 5k", "6.0x15' Whitewall Tires, Convertible Body with Black Canvas Soft Top" ]
+          },
+          {"label": "Other Equipment Options", "data": ["Directional Signals"]}
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Torque: 223lb-ft @ 2400rpm","Horsepower: 150hp @ 4200rpm","0-60: 11.2 Seconds", "Top Speed: 108 mph", "Quarter Mile: 18 @ 77 mph (averaged)"]},
+          {"label": "Engine", "data": ["3.8L OHV NA Inline 6 Cylinder 'Blue Flame'","Water Cooled", "Cast Iron Block", "Displacement: 3.85L","Bore: 3.56 x 3.95 inches", "Compression Ratio: 8.00:1", "Fuel: Triple Carter Sidedraft Carburetors 2066S, 148cfm-156cfm (estimated)", "5.5 Qts Oil Capacity"]},
+          {"label":"Transmission", "data":["2-Speed Powerglide Automatic", "Cast Iron Casing", "Air Cooled", "P-N-D-L-R Selector Sequence", "Floor Mounted Shifter"]},
+          {"label": "Suspension", "data": ["Front Suspension: 'Knee Action' Independent suspension with antiroll bar, upper/lower A-arms, hydraulic shocks", "Rear Suspension: Semi-elliptic leaf springs, hydraulic shocks"]}, 
+          {"label": "Rear Axle", "data": ["Hotchkiss drive", "3.55:1 Hypoid live-axle"]},
+          {"label": "Brakes", "data": ["Front: 11 inch hydraulic drum brakes", "Rear: 11 inch hydraulic drum brakes", "Mechanical rear parking brake"]},
+          {"label": "Frame", "data": ["Steel x-member braced Box-Girder frame"]},
+          {"label": "Body", "data": ["Fiberglass (Glass Reinforced Plastic) Body"]},
+          {"label": "Steering", "data": ["Center Point Linkage", "Full anti-friction gear"]},
+          {"label": "Exhaust", "data": ["Dual rear deck exhaust"]},
+          {"label": "Wheels", "data": ["Front Wheels: Steel Disc, 15x5k", "Rear Wheels: Steel Disc, 15x5k", "Front Tires: 6.0 x 15 inch", "Rear Tires: 6.0 x 15 inch"]}, 
+          {"label": "Exterior Dimensions", "data": ["Curb Weight: 2851 lbs","Wheelbase: 102 inches", "Length: 167 inches", "Width: 72.2 inches", "Front Track Width: 57 inches", "Rear Track Width: 58.8 inches", "Height: 51.3 Inches"]},
+          {"label": "Interior Dimensions", "data": ["22.4 cubic feet of cargo space", "18 Gallon Fuel Tank"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          "The first Corvette was produced on June 30, 1953",
+          "Only 300 Corvettes were produced for this model year, of which only 225 are known to exist today",
+          "All 300 cars were built by hand in the back of a customer delivery garage in Flint, Michigan",
+          "All 1953 Corvettes have the same options and options, this is due to the fact that GM was constantly having to correct issues with the fiberglass body pieces that were received from their supplier, Molded Fiber Glass Company in Ashtabula, Ohio",
+          "The fiberglass body consisted of 46 separate pieces that had to be put together and glued by hand",
+          "Fiberglass, the material that made up the body of the first corvette, was originally called Glass Reinforced Plastic. It was so lightweight that one man could lift entire sections of the body by himself",
+          "The inline six-cylinder 'Blue Flame' motor was also referred to as the 'Stovebolt' by GM's engineering team. This is because the bolts used resembled those used on wood stoves at the time",
+          "This was the first production vehicle, GM or otherwise, to be produced with a fiberglass body",
+          "Just 4 days prior to the reveal of the EX-122 at GM Motorama, GM management informed the styling team that the American flag in the corvette emblem had to be removed for legal reasons. The emblem was changed overnight, after which the checkered flag remained, and the American flag was replaced with a red flag showcasing a gold fleur-de-lis and Chevrolet bow-tie",
+          "The first 25 Corvettes came equipped with Chevrolet Bel Air wheel covers, after which a faux knock-off style was used"
+        ]
+      }
+    ]
+  },
+  {
+    "year": "1954",
+    "imgSrc":
+      "url(https://bringatrailer.com/wp-content/uploads/2019/01/1954_chevrolet_corvette_155346160366fc8586dfaScreen-Shot-2019-03-24-at-2.06.06-PM-e1553625116347.png?fit=940%2C625)",
+    "alt": "1954 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "235ci 'Blue Flame' Inline Six-Cylinder",
+              "2 Speed Powerglide Automatic Transmission"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Independent front suspension with antiroll bar", "Live axle on rear leaf spring suspension", "3.55:1 Rear End Axle Ratio"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Hydrualic Drum Brakes, front and rear"]
+          },
+          { "label": "Color Schemes", "data": ["Polo White with Sportsman Red Interior, Beige(Tan) Soft Top", "Pennant Blue with Beige(Tan) Interior, Beige(Tan) Soft Top", "Sportsman Red with Sporstman Red Interior, Beige(Tan) Soft Top", "Black with Sportsman Red Interior, Beige(Tan) Soft Top"] },
+          { "label": "Interior Colors", "data": ["Sportsman Red", "Tan", "Red"] },
+          {
+            "label": "Interior Options",
+            "data": ["Leather Interior", "Heater", "AM/FM Radio"]
+          },
+          { "label": "Exterior Colors", "data": ["Polo White", "Pennant Blue", "Sportsman Red", "Black"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Steel disc rims, 15 x 5k", "6.0x15' Whitewall Tires, Convertible Body with black canvas top" ]
+          },
+          {"label": "Other Equipment Options", "data": ["Directional Signals", "Parking Brake Alarm", "Courtesy Lights", "Windshield Washer"]}
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Torque: 223lb-ft @ 2400rpm","Horsepower: 150hp @ 4200rpm","0-60: 11.2 Seconds", "Top Speed: 108 mph", "Quarter Mile: 18 @ 77 mph (averaged)"]},
+          {"label": "Engine", "data": ["3.8L OHV NA Inline 6 Cylinder 'Blue Flame'","Shielded ignition","Water Cooled with reserve water tank", "Cast Iron Block", "Displacement: 3.85L","Bore: 3.56 x 3.95 inches", "Compression Ratio: 8.00:1", "Fuel: Triple Carter Sidedraft Carburetors 2066S, 148cfm-156cfm (estimated)", "5.5 Qts Oil Capacity"]},
+          {"label":"Transmission", "data":["2-Speed Powerglide Automatic", "Cast Iron Casing", "Air Cooled", "P-N-D-L-R Selector Sequence", "Floor Mounted Shifter"]},
+          {"label": "Suspension", "data": ["Front Suspension: 'Knee Action' Independent suspension with antiroll bar, upper/lower A-arms, hydraulic shocks", "Rear Suspension: Semi-elliptic leaf springs, hydraulic shocks"]}, 
+          {"label": "Rear Axle", "data": ["Hotchkiss drive", "3.55:1 Hypoid live-axle"]},
+          {"label": "Brakes", "data": ["Front: 11 inch hydraulic drum brakes", "Rear: 11 inch hydraulic drum brakes", "Mechanical rear parking brake"]},
+          {"label": "Frame", "data": ["Steel x-member braced Box-Girder frame"]},
+          {"label": "Body", "data": ["Fiberglass (Glass Reinforced Plastic) Body, 410lb body weight"]},
+          {"label": "Steering", "data": ["16:1","Center Point Linkage", "Full anti-friction gear"]},
+          {"label": "Exhaust", "data": ["Dual rear deck exhaust"]},
+          {"label": "Wheels", "data": ["Front Wheels: Steel Disc, 15x5k", "Rear Wheels: Steel Disc, 15x5k", "Front Tires: 6.0 x 15 inch", "Rear Tires: 6.0 x 15 inch"]}, 
+          {"label": "Exterior Dimensions", "data": ["Curb Weight: 2851 lbs","Wheelbase: 102 inches", "Length: 167 inches", "Width: 72.2 inches", "Front Track Width: 57 inches", "Rear Track Width: 58.8 inches", "Height: 51.3 Inches"]},
+          {"label": "Interior Dimensions", "data": ["22.4 cubic feet of cargo space", "18 Gallon Fuel Tank"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1955",
+    "imgSrc":
+      "url(https://cdn1.mecum.com/auctions/sc0518/sc0518-327443/images/01-1523307140873@2x.jpg?1524156863000)",
+    "alt": "1955 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "235ci 'Blue Flame' Inline Six-Cylinder",
+              "265ci Small Block V8",
+              "2 Speed Powerglide Automatic Transmission",
+              "3 Speed Synchro-Mesh Manual Transmission"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Independent front suspension with antiroll bar", "Live axle on rear leaf spring suspension", "3.55:1 Rear End Axle Ratio"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Hydrualic Drum Brakes, front and rear"]
+          },
+          { "label": "Interior Colors", "data": ["Sportsman Red", "Light Beige(Tan)", "Dark Beige(Tan)", "Yellow"] },
+          {
+            "label": "Interior Options",
+            "data": ["Leather Interior", "Heater", "AM/FM Radio"]
+          },
+          { "label": "Exterior Colors", "data": ["Polo White", "Pennant Blue", "Gypsy Red", "Corvette Copper", "Harvest Gold"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Steel disc rims, 15 x 5k", "6.0x15' Whitewall Tires, Convertible Body with black canvas top" ]
+          },
+          {"label": "Other Equipment Options", "data": ["Directional Signals", "Parking Brake Alarm", "Courtesy Lights", "Windshield Washer"]}
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Torque: 223lb-ft @ 2400rpm","Horsepower: 155hp @ 4200rpm","0-60: 11.2 Seconds", "Top Speed: 108 mph", "Quarter Mile: 18 @ 77 mph (averaged)"]},
+          {"label": "Engine", "data": ["3.8L OHV NA Inline 6 Cylinder 'Blue Flame'","Water Cooled", "Cast Iron Block", "Displacement: 3.85L","Bore: 3.56 x 3.95 inches", "Compression Ratio: 8.00:1", "Fuel: Triple Carter Sidedraft Carburetors 2066S, 148cfm-156cfm (estimated)", "5.5 Qts Oil Capacity"]},
+          {"label":"Transmission", "data":["2-Speed Powerglide Automatic", "Cast Iron Casing", "Air Cooled", "P-N-D-L-R Selector Sequence"]},
+          {"label": "Exterior Dimensions", "data": ["Curb Weight: 2851 lbs","Wheelbase: 102 inches", "Length: 167 inches", "Width: 72.2 inches", "Front Track Width: 57 inches", "Rear Track Width: 58.8 inches", "Height: 51.3 Inches"]},
+          {"label": "Interior Dimensions", "data": ["22.4 cubic feet of cargo space", "18 Gallon Fuel Tank"]}, 
+          {"label": "Wheels", "data": ["Front Wheels: Steel Disc, 15x5k", "Rear Wheels: Steel Disc, 15x5k", "Front Tires: 6.0 x 15 inch", "Rear Tires: 6.0 x 15 inch"]}, 
+          {"label": "Suspension", "data": ["Front Suspension: Independent suspension with antiroll bar, upper/lower A-arms, hydraulic shocks", "Rear Suspension: Semi-elliptic leaf springs, hydraulic shocks"]}, 
+          {"label": "Brakes", "data": ["Front: 11 inch hydraulic drum brakes", "Rear: 11 inch hydraulic drum brakes"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1956",
+    "imgSrc":
+      "url(https://www.corvsport.com/wp-content/uploads/2020/09/01-1541430193338@2x.jpg)",
+    "alt": "1956 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1957",
+    "imgSrc":
+      "url(https://cdn1.mecum.com/auctions/fl0119/fl0119-359799/images/1-1543358169830@2x.jpg?1546209333000)",
+    "alt": "1957 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1958",
+    "imgSrc":
+      "url(https://cdn1.mecum.com/auctions/sc0513/sc0513-154103/images/sc0513-154103_1@2x.jpg?1362423165000)",
+    "alt": "1958 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1959",
+    "imgSrc":
+      "url(https://cdn1.mecum.com/auctions/ca0819/ca0819-380947/images/1-1560884162212@2x.jpg?1562789459000)",
+    "alt": "1959 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1960",
+    "imgSrc":
+      "url(https://cdn1.mecum.com/auctions/fl0118/fl0118-312606/images/01-1510593343948@2x.jpg?1512060753000",
+    "alt": "1960 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1961",
+    "imgSrc":
+      "url(https://cdn1.mecum.com/auctions/ca0819/ca0819-380875/images/1-1557323396977@2x.jpg?1562789459000)",
+    "alt": "1961 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1962",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1962 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+
+  {
+    "year": "1962",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1962 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1963",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1963 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1964",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1964 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1965",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1965 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1966",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1966 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1967",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1967 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+
+  {
+    "year": "1968",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1968 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1969",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1969 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1970",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1970 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1971",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1971 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1972",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1972 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1973",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1973 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1974",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1974 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1975",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1975 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1976",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1976 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1977",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1977 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1978",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1978 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1979",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1979 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1980",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1980 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1981",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1981 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1982",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1982 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+
+  {
+    "year": "1984",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1984 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1985",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1985 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1986",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1986 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1987",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1987 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1988",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1988 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1989",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1989 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1990",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1990 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1991",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1991 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1992",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1992 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1993",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1993 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1994",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1994 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1995",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1995 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1996",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1996 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+
+  {
+    "year": "1997",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1997 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1998",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1998 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "1999",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "1999 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2000",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2000 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2001",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2001 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2002",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2002 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2003",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2003 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2004",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2004 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+
+  {
+    "year": "2005",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2005 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2006",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2006 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2007",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2007 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2008",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2008 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2009",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2009 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2010",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2010 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2011",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2011 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2012",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2012 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2013",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2013 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+
+  {
+    "year": "2014",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2014 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2015",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2015 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2016",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2016 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2017",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2017 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2018",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2018 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+  {
+    "year": "2019",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2019 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  },
+
+  {
+    "year": "2020",
+    "imgSrc":
+      "url(https://i.pinimg.com/originals/35/72/52/35725200be7bab0b91ff8460c09f32a5.jpg)",
+    "alt": "2020 Corvette",
+    "listBoxes": [
+      {
+        "id": "general",
+        "content": [
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" },
+          { "text": "Placeholder Text", "image": "Placeholder Image", "imageAlt": "Placeholder Alt" }
+        ]
+      },
+      {
+        "id": "options",
+        "content": [
+          {
+            "label": "PowerTrain",
+            "data": [
+              "Placeholder Text"
+            ]
+          },
+          {
+            "label": "Suspension & Drivetrain",
+            "data": ["Placeholder Text"]
+          },
+          {
+            "label": "Brakes",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Interior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Interior Options",
+            "data": ["Placeholder Text"]
+          },
+          { "label": "Exterior Colors", "data": ["Placeholder Text"] },
+          {
+            "label": "Exterior Options",
+            "data": ["Placeholder Text" ]
+          }
+        ]
+      },
+      {
+        "id": "specs",
+        "content": [
+          {"label": "Performance", "data": ["Placeholder Text"]},
+          {"label": "Engine", "data": ["Placeholder Text"]},
+          {"label":"Transmission", "data":["Placeholder Text"]},
+          {"label": "Exterior Dimensions", "data": ["Placeholder Text"]},
+          {"label": "Interior Dimensions", "data": ["Placeholder Text"]}, 
+          {"label": "Wheels", "data": ["Placeholder Text"]}, 
+          {"label": "Suspension", "data": ["Placeholder Text"]}, 
+          {"label": "Brakes", "data": ["Placeholder Text"]}
+        ]
+      },
+      {
+        "id": "facts",
+        "content": [
+          ]
+      }
+    ]
+  }]

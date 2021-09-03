@@ -1,0 +1,218 @@
+[
+    {
+      "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-chevrolet-corvette-lead2-1571234772.jpg?crop=0.837xw:0.627xh;0.0577xw,0.219xh&resize=1200:*",
+      "alt": "Red 2020 C8 Stingray",
+      "type": "C8",
+      "color": "Red",
+      "year": "2020",
+      "submodel": "Base",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2022-chevrolet-corvette-stingray-imsa-gtlm-championship-edition-006-1623693873.jpg?crop=0.971xw:0.810xh;0,0.0722xh&resize=1200:*",
+      "alt": "Yellow 2020 C8 Stingray",
+      "type": "C8",
+      "color": "Yellow",
+      "year": "2020",
+      "submodel": "Base",
+      "body": "Convertible"
+    },
+    {
+      "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-chevrolet-corvette-stingray-200-1591806516.jpg?crop=0.772xw:0.579xh;0.112xw,0.243xh&resize=1200:*",
+      "alt": "Blue 2021 C8 Stingray",
+      "type": "C8",
+      "color": "Blue",
+      "year": "2021",
+      "submodel": "Base",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0043/8471/8938/products/161973625618918902_428e8f49-3e23-4f20-921b-3b9ea582e8dd_812x.jpg?v=1620750075",
+      "alt": "White 2021 C8 Stingray",
+      "type": "C8",
+      "color": "White",
+      "year": "2021",
+      "submodel": "Base",
+      "body": "Convertible"
+    },
+    {
+      "url": "https://www.corvsport.com/wp-content/uploads/2017/03/Corvette.jpg",
+      "alt": "Yellow 2017 C7 Z06",
+      "type": "C7",
+      "color": "Yellow",
+      "year": "2017",
+      "submodel": "Z06",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://bringatrailer.com/wp-content/uploads/2019/10/2016_chevrolet_corvette_z06_c7-r_edition_1573592782113f387bc94826corvette_031.jpg?fit=940%2C627",
+      "alt": "Black 2016 C7 Z06",
+      "type": "C7",
+      "color": "Black",
+      "year": "2016",
+      "submodel": "Z06",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://www.corvetteblogger.com/images/content/uploads/2019/09/092519_2.jpg",
+      "alt": "Gray 2015 C7 Grand Sport",
+      "type": "C7",
+      "color": "Grey",
+      "year": "2015",
+      "submodel": "Grand Sport",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://www.motortrend.com/uploads/sites/5/2013/07/2014-Chevrolet-Corvette-Stingray-Z51-front-three-quarters-in-motion2.jpg?fit=around%7C875:492",
+      "alt": "Red 2014 C7 Stingray",
+      "type": "C7",
+      "color": "Red",
+      "year": "2014",
+      "submodel": "Base",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://i.pinimg.com/originals/46/f6/d9/46f6d97d3db5cdfa6faf92ee8a552554.jpg",
+      "alt": "Blue 2018 C7 ZR1",
+      "type": "C7",
+      "color": "Blue",
+      "year": "2018",
+      "submodel": "ZR1",
+      "body": "Hatch"
+    },
+    {
+      "url": " https://i.pinimg.com/originals/bd/b2/8e/bdb28ee7c2c6b4d945c55c52ca0b83ee.jpg",
+      "alt": "White 2013 C6 Anniversary Edition",
+      "type": "C6",
+      "color": "White",
+      "year": "2013",
+      "submodel": "Anniversary",
+      "body": "Convertible"
+    },
+    {
+      "url": "http://www.blogcdn.com/www.autoblog.com/media/2012/02/lead24-2012-chevrolet-corvette-zr1-review.jpg",
+      "alt": "Black 2012 C6 ZR1",
+      "type": "C6",
+      "color": "Black",
+      "year": "2012",
+      "submodel": "ZR1",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://www.corvetteblogger.com/images/content/uploads/2020/06/060920_2.jpg",
+      "alt": "Red 2012 C6 ZR1",
+      "type": "C6",
+      "color": "Red",
+      "year": "2012",
+      "submodel": "ZR1",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://www.dmautosales.com/galleria_images/738/738_main_l.jpg",
+      "alt": "Yellow 2011 C6 Grand Sport",
+      "type": "C6",
+      "color": "Yellow",
+      "year": "2011",
+      "submodel": "Grand Sport",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://cdn1.mecum.com/auctions/ln1118/ln1118-334369/images/corvette-z06-1538414264652.jpg?1542230329000",
+      "alt": "Black 2010 C5 Z06",
+      "type": "C6",
+      "color": "Black",
+      "year": "2010",
+      "submodel": "Z06",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://www.corvetteblogger.com/images/content/2019-3/122719_4b.jpg",
+      "alt": "Grey 2009 C6 ZR1",
+      "type": "C6",
+      "color": "Grey",
+      "year": "2009",
+      "submodel": "ZR1",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://www.corvetteblogger.com/images/content/2019/032819_3b.jpg",
+      "alt": "Red 2008 C6 Z06",
+      "type": "C6",
+      "color": "Red",
+      "year": "2008",
+      "submodel": "Z06",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://pictures.dealer.com/a/autonationdrive/0437/a9013132abcc0de8860009c4bc5c9653x.jpg",
+      "alt": "Silver 2007 C6 Z06",
+      "type": "C6",
+      "color": "Silver",
+      "year": "2007",
+      "submodel": "Z06",
+      "body": "Hatch"
+    },
+    {
+      "url": "http://assets.superchevy.com/f/74540484.jpg?width=640&height=426",
+      "alt": "Blue 2006 C6 Stingray",
+      "type": "C6",
+      "color": "Blue",
+      "year": "2006",
+      "submodel": "Base",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://www.corvsport.com/wp-content/uploads/2017/03/2005-Corvette-machine-silver-77595_a.jpg",
+      "alt": "Silver 2005 C6 Stingray",
+      "type": "C6",
+      "color": "Silver",
+      "year": "2005",
+      "submodel": "Base",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://photos.classiccars.com/cc-temp/listing/148/1575/26401836-2004-chevrolet-corvette-z06-thumb.jpg",
+      "alt": "Blue 2004 C5 Z06",
+      "type": "C5",
+      "color": "Blue",
+      "year": "2004",
+      "submodel": "Z06",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://www.corvetteblogger.com/images/content/2017/060817_1.jpg",
+      "alt": "Red 2003 C5 Anniversary Edition",
+      "type": "C5",
+      "color": "Red",
+      "year": "2003",
+      "submodel": "Anniversary",
+      "body": "Convertible"
+    },
+    {
+      "url": "https://www.motortrend.com/uploads/sites/5/2002/02/0202_MTRP_01_o_Z06.jpg?fit=around%7C875:492",
+      "alt": "Blue 2002 C5 Z06",
+      "type": "C5",
+      "color": "Blue",
+      "year": "2002",
+      "submodel": "Z06",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://i.pinimg.com/originals/f0/c8/28/f0c828096914b6674bee5f34b6fe7d65.jpg",
+      "alt": "Yellow 2001 C5 Base",
+      "type": "C5",
+      "color": "Yellow",
+      "year": "2001",
+      "submodel": "Base",
+      "body": "Hatch"
+    },
+    {
+      "url": "https://barrettjacksoncdn.azureedge.net/staging/carlist/items/Fullsize/Cars/208432/208432_Side_Profile_Web.jpg",
+      "alt": "Green 2000 C5 Base",
+      "type": "C5",
+      "color": "Green",
+      "year": "2000",
+      "submodel": "Base",
+      "body": "Convertible"
+    }
+  ]

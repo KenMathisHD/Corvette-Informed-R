@@ -1,0 +1,232 @@
+.favoriteYear {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  margin: 15px 0 0;
+  padding: 20px 0;
+  animation-name: rotateColor;
+  animation-duration: 28s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotateColor {
+  0%
+    /* Slideshow Code Source https: //snook.ca/archives/html_and_css/simplest-css-slideshow*/
+  {
+    color: black;
+    background-color: #f4561e;
+  }
+
+  3.571% {
+    /*Animation Time - Time fade in occurs in seconds * (100/animation duration)*/
+    color: black;
+    background-color: #f4561e;
+  }
+
+  14.285% {
+    /*View Duration - Time image is fully visible * (100/animation duration)*/
+    color: black;
+    background-color: #f4561e;
+  }
+
+  17.857% {
+    /*Animation Time - Time fade out occurs in seconds * (100/animation duration)*/
+    color: white;
+    background-color: #1d1e22;
+  }
+  28.571% {
+    color: white;
+    background-color: #1d1e22;
+  }
+  32.143% {
+    color: black;
+    background-color: #fddd3e;
+  }
+  42.857% {
+    color: black;
+    background-color: #feee44;
+  }
+  46.429% {
+    color: white;
+    background-color: #3b121c;
+  }
+  57.143% {
+    color: white;
+    background-color: #3b121c;
+  }
+  60.714% {
+    color: white;
+    background-color: #000000;
+  }
+  71.429% {
+    color: white;
+    background-color: #000000;
+  }
+  75% {
+    color: white;
+    background-color: #553134;
+  }
+  85.714% {
+    color: white;
+    background-color: #553134;
+  }
+  89.286% {
+    color: white;
+    background-color: #000000;
+  }
+  100% {
+    color: white;
+    background-color: #000000;
+  }
+}
+
+.generations {
+  width: 1024px;
+  margin: 40px auto;
+
+  div {
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 40px;
+    position: relative;
+    padding-top: 35.15%; /*aspect ratio for image size and picture*/
+    border: 3px solid yellow;
+
+    a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      text-decoration: none;
+
+      img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0%;
+        opacity: 0.5;
+        -moz-opacity: 0.5;
+        -khtml-opacity: 0.5;
+        transition: 0.5s;
+      }
+      .genTexth2 {
+        margin: 0.75rem 0;
+        padding: 0 4rem;
+        color: white;
+        position: relative;
+        font-size: 62px;
+        font-family: GrandSport, Verdana, Tahoma;
+        text-shadow: 5px 4px 4px rgba(0, 0, 0, 1);
+        text-align: center;
+        // border: 2px solid green;
+      }
+      .genTexth3 {
+        margin: 0;
+        padding: 0 4rem;
+        color: white;
+        position: relative;
+        font-size: 48px;
+        font-family: GrandSport, Verdana, Tahoma;
+        text-shadow: 5px 4px 4px rgba(0, 0, 0, 1);
+        text-align: center;
+        // border: 2px solid green;
+      }
+      &:hover {
+        img {
+          opacity: 0.8;
+          -moz-opacity: 0.8;
+          -khtml-opacity: 0.8;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .generations {
+    width: 100%;
+
+    div {
+      a {
+        img {
+          opacity: 0.3;
+          transition: 200ms ease;
+
+          &:focus {
+            opacity: 0.8;
+            transition: 200ms ease;
+          }
+        }
+        .genText {
+          font-size: 35px;
+          padding: 0 5px;
+          line-height: 0.85em;
+        }
+      }
+    }
+  }
+
+  .genInstructionsTextP {
+    font-size: 27.5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .genInstructionsTextP {
+    font-size: 20px;
+  }
+
+  .generations {
+    div {
+      a {
+        .genText {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .genInstructionsTextP {
+    font-size: 15px;
+  }
+
+  .generations {
+    div {
+      a {
+        .genText {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  #genInstructionsText {
+    padding: 15px 0;
+  }
+  .genInstructionsTextP {
+    font-size: 16px;
+  }
+
+  .generations {
+    div {
+      a {
+        .genText {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

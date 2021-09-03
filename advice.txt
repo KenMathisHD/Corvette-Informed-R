@@ -1,0 +1,8 @@
+animated scroll
+1 page instead of tabs
+quotes or images on side to shorten text length
+
+template monster
+
+bootstrap
+--figures and captions for images

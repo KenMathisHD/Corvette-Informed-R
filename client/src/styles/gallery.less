@@ -1,0 +1,106 @@
+.gallery-cont {
+  max-width: 1024px;
+  margin: 0 auto 2em;
+  //   border: 2px solid silver;
+
+  h1 {
+    font-family: GrandSport, Verdana, Tahoma;
+    color: black;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    background-color: orangered;
+    border-radius: 15px;
+    border: 5px solid black;
+
+    color: white;
+    position: relative;
+    font-size: 40px;
+    font-family: GrandSport, Verdana, Tahoma;
+    text-shadow: 5px 3px 8px #000000;
+    text-align: center;
+  }
+
+  // .currentImage {
+  //   max-width: 1024px;
+  //   padding: 0 4rem 2rem;
+
+  //   img {
+  //     width: 100%;
+  //     border: 2px solid silver;
+  //   }
+  // }
+
+  .currentImage {
+    max-width: 1024px;
+    padding: 0 4rem 2rem;
+
+    > div {
+      padding-bottom: 60%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border: 2px solid silver;
+    }
+  }
+
+  .drop-cont {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+
+    select,
+    button {
+      padding: 0.75rem 0.65rem;
+      margin: 0 0.5rem 0.75rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      width: 8rem;
+    }
+    .btn-danger {
+      color: #fff;
+      background-color: #dc3545;
+      border-color: #dc3545;
+    }
+    .btn-primary {
+      color: #fff;
+      background-color: #0d6efd;
+      border-color: #0d6efd;
+    }
+    .imageCounter {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 4rem;
+      padding-bottom: 0.75rem;
+
+      font-size: 1rem;
+      color: white;
+      text-align: center;
+    }
+  }
+
+  .gallery-item-cont {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 556.75px;
+    display: grid;
+    align-items: start;
+    grid-template-columns: repeat(5, auto);
+    // border: 2px solid green;
+
+    .gallery-item {
+      display: inline-block;
+      width: auto;
+      padding-bottom: 56.25%;
+      background-size: cover;
+      background-position: center;
+      margin: 10px;
+      border: 2px solid silver;
+    }
+  }
+}
