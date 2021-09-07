@@ -20,12 +20,12 @@ class Gallery extends Component {
       body: "",
     },
     shownImages: [],
-    selectedImage: "",
+    selectedImage: {},
   };
 
   async componentDidMount() {
     const { data: images } = await getGalleryImages(`${api.gallery}`);
-    const selectedImage = images[0].url;
+    const selectedImage = { url: images[0].url, alt: images[0].alt };
     this.setState({ images: images, selectedImage: selectedImage });
   }
 
@@ -82,8 +82,9 @@ class Gallery extends Component {
     );
   }
 
-  handleImageSelect = (imageUrl) => {
-    this.setState({ selectedImage: imageUrl });
+  handleImageSelect = (imageUrl, imageAlt) => {
+    const selectedImage = { url: imageUrl, alt: imageAlt };
+    this.setState({ selectedImage: selectedImage });
   };
 
   getPageData = () => {
@@ -108,15 +109,12 @@ class Gallery extends Component {
       <div className="gallery-cont">
         <h1>Corvette Gallery</h1>
         <div className="currentImage">
-          <div
+          {/* <div
             style={{
-              backgroundImage: `url(${
-                !selectedImage
-                  ? "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-chevrolet-corvette-lead2-1571234772.jpg?crop=0.837xw:0.627xh;0.0577xw,0.219xh&amp;resize=1200:*"
-                  : selectedImage
-              })`,
+              backgroundImage: `url(${selectedImage})`,
             }}
-          ></div>
+          ></div> */}
+          <img src={selectedImage.url} alt={selectedImage.alt} />
         </div>
         <div className="drop-cont">
           <button className="btn-danger" onClick={this.handleReset}>
@@ -142,7 +140,7 @@ class Gallery extends Component {
               alt={image.alt}
               style={{ backgroundImage: `url(${image.url})` }}
               index={index}
-              onClick={() => this.handleImageSelect(image.url)}
+              onClick={() => this.handleImageSelect(image.url, image.alt)}
             ></div>
           ))}
         </div>
