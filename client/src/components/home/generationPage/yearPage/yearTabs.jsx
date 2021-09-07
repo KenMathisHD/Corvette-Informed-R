@@ -93,7 +93,10 @@ class YearTabs extends Component {
                   {tab.content.map((content, index) => (
                     <div className="genInfo" key={index}>
                       <p>{parse(content.text)}</p>
-                      <img src={content.image} alt={content.imageAlt} />
+                      <figure>
+                        <img src={content.image} alt={content.imageAlt} />
+                        <figcaption>{content.imageAlt}</figcaption>
+                      </figure>
                     </div>
                   ))}
                 </div>
@@ -106,7 +109,7 @@ class YearTabs extends Component {
                     {tab.content.map((content, index) => {
                       return (
                         <li key={index} className="fiftychildren">
-                          {content}
+                          {parse(content)}
                         </li>
                       );
                     })}
@@ -124,7 +127,7 @@ class YearTabs extends Component {
                           <h3>{content.label}</h3>
                           <ul className="options-ul">
                             {content.data.map((data, index) => (
-                              <li key={index}>{data}</li>
+                              <li key={index}>{parse(data)}</li>
                             ))}
                           </ul>
                         </div>

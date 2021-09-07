@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { searchOptions, getGalleryImages } from "../data/galleryService";
-import { paginate } from "../data/paginate";
+import { searchOptions, getGalleryImages } from "../../data/galleryService";
+import { paginate } from "../../data/paginate";
 import Pagination from "./pagination";
-import Select from "./common/select";
-import * as api from "../data/apiEndpoints.json";
+import Select from "../common/select";
+import * as api from "../../data/apiEndpoints.json";
 
 class Gallery extends Component {
   state = {

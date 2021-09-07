@@ -1,7 +1,7 @@
 import "./styles/App.css";
-import NavBar from "./components/navBar";
+import NavBar from "./components/common/navBar";
 import Routes from "./components/routes";
-import PageFooter from "./components/pagefooter";
+import PageFooter from "./components/common/pagefooter";
 import { useState } from "react";
 
 function App() {

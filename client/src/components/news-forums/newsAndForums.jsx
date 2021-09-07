@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { getForums } from "../data/forumsData";
-import { getNews } from "./../data/newsData";
+import { getForums } from "../../data/forumsData";
+import { getNews } from "../../data/newsData";
 
 class NewsAndForums extends Component {
   state = { forums: [], news: [] };

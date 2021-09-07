@@ -1,11 +1,12 @@
 import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
-import Home from "./home";
-import Year from "./[year]";
-import Generation from "./[generation]";
-import Gallery from "./gallery";
+
+import Home from "./home/home";
+import Year from "./home/generationPage/yearPage/[year]";
+import Generation from "./home/generationPage/[generation]";
+import Gallery from "./gallery/gallery";
+import NewsAndForums from "./news-forums/newsAndForums";
 import NotFound from "./notfound";
-import NewsAndForums from "./newsAndForums";
 
 const Routes = () => {
   return (
