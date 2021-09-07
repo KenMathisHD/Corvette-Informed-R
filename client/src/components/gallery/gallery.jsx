@@ -1,5 +1,8 @@
 import React, { Component } from "react";
-import { searchOptions, getGalleryImages } from "../../data/galleryService";
+import {
+  searchOptions,
+  getGalleryImages,
+} from "../../data/services/galleryService";
 import { paginate } from "../../data/paginate";
 import Pagination from "./pagination";
 import Select from "../common/select";
@@ -109,11 +112,6 @@ class Gallery extends Component {
       <div className="gallery-cont">
         <h1>Corvette Gallery</h1>
         <div className="currentImage">
-          {/* <div
-            style={{
-              backgroundImage: `url(${selectedImage})`,
-            }}
-          ></div> */}
           <img src={selectedImage.url} alt={selectedImage.alt} />
         </div>
         <div className="drop-cont">
@@ -127,21 +125,18 @@ class Gallery extends Component {
           {this.renderSelect("submodel", searchOptions("submodel", data))}
           {this.renderSelect("body", searchOptions("body", data))}
 
-          {/* <button className="btn-primary" onClick={this.handleSearch}>
-            Search
-          </button> */}
           <span className="imageCounter">{totalCount} Images</span>
         </div>
         <div className="gallery-item-cont">
           {data.map((image, index) => (
-            <div
-              key={image.alt}
-              className="gallery-item"
-              alt={image.alt}
-              style={{ backgroundImage: `url(${image.url})` }}
-              index={index}
-              onClick={() => this.handleImageSelect(image.url, image.alt)}
-            ></div>
+            <div className="gallery-item">
+              <img
+                src={image.url}
+                alt={image.alt}
+                index={index}
+                onClick={() => this.handleImageSelect(image.url, image.alt)}
+              />
+            </div>
           ))}
         </div>
         <Pagination

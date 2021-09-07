@@ -89,10 +89,19 @@
   grid-column-gap: 10px;
 }
 .gallery-cont .gallery-item-cont .gallery-item {
-  display: inline-block;
-  width: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
   height: 100%;
   background-size: cover;
   background-position: center;
   border: 1px solid black;
+  overflow: hidden;
+}
+.gallery-cont .gallery-item-cont .gallery-item img {
+  position: absolute;
+  min-width: 100%;
+  height: 100%;
 }
