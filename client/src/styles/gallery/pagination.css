@@ -1,12 +1,11 @@
 .pagination {
   display: flex;
-  padding-left: 0;
   list-style: none;
+  margin: 1.5rem 0;
 }
 .pagination ol,
 .pagination ul,
 .pagination dl {
-  margin-top: 0;
   margin-bottom: 1rem;
 }
 .pagination :first-child .page-link {

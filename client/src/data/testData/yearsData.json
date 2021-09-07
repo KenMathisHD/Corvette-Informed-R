@@ -7,31 +7,32 @@
       {
         "id": "general",
         "content": [
-          { "text": "The first Corvette started off as an idea pushed by Harley Earl, GM's head of styling and a fan of sporting (sports) cars. Harley recognized the growing postwar demand for luxury and sports cars after seeing GI's bringing home cars from foreign manufacturers such as Fiat, MG, Alfa-Romeo and Jaguar. At the time, no other domestic manufacturer was producing a vehicle that fit these categories while being priced low enough to be considered by the returning GI's, so Earl went to GM and convinced them of the need for an all-American sports car. Having gotten the go ahead, Earl, assisted by his Special Projects crew and Head of Experimental Styling Bob McLean, began work on the new concept car in late 1951.", 
-            "image": "/images/fiat-1100-tv-spider-old.jpg" },
+          { "text": "The first Corvette started off as an idea pushed by Harley Earl, GM's head of styling and a fan of sporting (sports) cars. Harley recognized the growing postwar demand for luxury and sports cars after seeing GI's bringing home cars from foreign manufacturers such as Fiat, MG, Alfa-Romeo and Jaguar. At the time, no other domestic manufacturer was producing a vehicle that fit these categories while being priced low enough to be attainable by the returning GI's, so Earl went to GM and convinced them of the need for an all-American sports car to fill that gap. Having gotten the go ahead, Earl, assisted by his Special Projects crew and Head of Experimental Styling Bob McLean, began work on the new concept car in late 1951.", 
+            "image": "/images/1951 Alfa Romeo 1900 Berlinetta.jpg",
+            "imageAlt": "1951 Alfa Romeo 1900 Berlinetta" },
           { "text": "Codenamed Project Opel, the car took 2 years to produce, and was eventually revealed at the General Motors Motorama at the Waldorf-Astoria on January 17th, 1953. The car on display was designated EX-122, the serial number used for the concept car (with the EX standing for experimental), and showcased a full fiberglass body, the first to be used on any production car at the time. The positive public reaction the concept received at Motorama was incredible and served to strengthen GM's resolve to bring the car to market as soon as possible. While not the first postwar sports car to be produced (that title goes to the Crosley Hotshot), the Corvette would be GM's first all-American sports car since the Chevrolet Master in 1938.", 
             "image": "/images/EX-122.jpg",
-          "imageAlt": "EX-122 Corvette" },
+          "imageAlt": "EX-122 Corvette on display at the General Motors Motorama at the Waldorf-Astoria" },
           { "text": "Following the Motorama, GM green-lit the production of the Corvette, setting a target of 50 vehicles produced per month and a total limit of 300 cars. The first Corvettes wouldn't be built until early June of 1953, with the first production model being completed on June 30th of the same year. However, before production had even started, all 300 units had been spoken for, a practice unheard of at the time. While exciting at first, this was the start of some significant problems the C1 would encounter.", 
             "image": "/images/Corvette-No-1.jpg", 
-            "imageAlt": "The first production Corvette" },
+            "imageAlt": "Harley Earl and his team standing with the first completed production Corvette" },
           { "text": "One of the main issues plaguing first year production was the fitment of the fiberglass body. At the time, fiberglass molding techniques were in their infancy, and as a result most of the 46 fiberglass body pieces had defects that would not allow them to fit together properly. These defects had to be corrected by hand at the time of fitment which, when cosidering all 300 units were put together in the back of a customer delivery garage, caused significant delays in production. To reduce delays, and because the first few Corvettes were literally being engineered as they were assembled, all 300 units were sold with the same features and options.", 
             "image": "/images/1953-Corvette-Body-Parts.jpg", 
-            "imageAlt": "1953 Corvette Body Pieces" },
+            "imageAlt": "The separate fiberglass body pieces that made up the fiberglass body of the first Corvettes" },
           {
-            "text": "The post-production Corvettes didn't receive anywhere near the same positive reactions that the EX-122 had during Motorama either. While being marketed as a luxury \"sports car\", the 1953 model year was powered by a \"Blue Flame\" inline 6-cylinder motor that produced only 150hp. The Blue Flame did boast better performance the the Stovebolt motor it was based off of, with a more aggresive cam, solid lifters, dual valve springs, an upgraded air intake and triple Carter-YH Sidedraft carburetors, but the 45hp bump still didn't satisfy customers and GM refused to share any of it's V8 motors with the new concept car. That, and the 2-speed Powerglide Automatic, which at the time of production would not always shift from low to high gearing, made the Corvette slow off the line and gave it an awful 0-60 time of just over 11.2 seconds.",
+            "text": "The post-production Corvettes didn't receive anywhere near the same positive reactions that the EX-122 had during Motorama. While being marketed as a luxury \"sports car\", the 1953 model year was powered by a \"Blue Flame\" inline 6-cylinder motor that produced only 150hp. The Blue Flame did boast better performance than the Stovebolt motor it was based off of, with a more aggresive cam, solid lifters, dual valve springs, an upgraded air intake and triple Carter-YH Sidedraft carburetors, but the 45hp bump still didn't satisfy customers and GM refused to share any of it's V8 motors with the new concept car. That, and the 2-speed Powerglide Automatic, which at the time of production would not always shift from low to high gearing, made the Corvette slow off the line and gave it an awful 0-60 time of just over 11.2 seconds.",
             "image":"/images/1953-Blue-Flame-Engine.jpg",
-            "imageAlt":"Blue Flame Inline 6-Cylinder Motor"
+            "imageAlt":"150 horsepower Blue Flame Inline 6-Cylinder Motor in a 1953 Corvette"
           },
           {
-            "text": "The comfort and convenience marketing also hurt the Corvettes sports car image. Customers at the time expected a sports car to be raw and uncomprimising, and the compact 2 door luxury design had a hard time winning over both sports car enthusiasts and those looking for a weekend cruiser. With the body issues and production rush, manual or power windows were instead swapped out for crude plexi glass inserts which were prone to leaking, and the jet-age inspired interior, while stylish, was mostly non functional.", 
+            "text": "The comfort and convenience marketing also hurt the Corvettes sports car image. Customers at the time expected a sports car to be raw and uncomprimising, and the compact 2 door luxury design had a hard time winning over both sports car enthusiasts and those looking for a weekend cruiser. With the delays from body issues and GM rushing production, manual or power windows ended up being swapped out for crude plexi glass inserts which were prone to leaking. And the jet-age inspired interior, while stylish, was mostly non functional, a critique often heard from prospective buyers.", 
             "image": "/images/1953_Corvette_Interior.jpg", 
-            "imageAlt": "1953 Corvette Interior" 
+            "imageAlt": "1953 Corvette \"Jet Age\"Interior" 
           },
           {
-            "text": "With the public opinion of the Corvette turning sour, GM attempted to improve the cars image as a prestige car by restricting sales to VIP's in each community. The intent behind this was to market pre-sales of the Corvette, relying on testimonials from VIP owners and a campaign that praised the cars styling, performance and grandeur. While normally an ingenious campaign, VIP's of the first cars didn't like it anywhere near as much as GM had hoped, and the inflated final price of $3490 put the car out of the affordable price range of those it was marketed towards. Though all units were sold, the Corvette was starting to look like a potential failure, and GM really began to question the viability of this new sports car.", 
+            "text": "With the public opinion of the Corvette turning sour, GM attempted to improve the cars image as a prestige car by restricting sales to VIP's in each community. The intent behind this was to market pre-sales of the Corvette, relying on testimonials from VIP owners and a campaign that praised the cars styling, performance and grandeur. While an ingenious campaign, VIP's of the first cars didn't like it anywhere near as much as GM had hoped, and the inflated final price of $3490 put the car out of the affordable price range of those it was marketed towards. Though all 300 units had already sold, the Corvette was starting to look like a potential failure, and GM really began to question the viability of this new sports car.", 
             "image": "/images/1953_Corvette_Rear.png",
-          "imageAlt": "1953 Corvette Rear" 
+          "imageAlt": "1953 Corvette Rear bumper and windshield" 
           }
         ]
       },
@@ -86,14 +87,16 @@
       {
         "id": "facts",
         "content": [
-          "The first Corvette was produced on June 30, 1953",
+          "The first production Corvette was completed on June 30, 1953",
           "Only 300 Corvettes were produced for this model year, of which only 225 are known to exist today",
           "All 300 cars were built by hand in the back of a customer delivery garage in Flint, Michigan",
           "All 1953 Corvettes have the same options and options, this is due to the fact that GM was constantly having to correct issues with the fiberglass body pieces that were received from their supplier, Molded Fiber Glass Company in Ashtabula, Ohio",
           "The fiberglass body consisted of 46 separate pieces that had to be put together and glued by hand",
           "Fiberglass, the material that made up the body of the first corvette, was originally called Glass Reinforced Plastic. It was so lightweight that one man could lift entire sections of the body by himself",
+          "The Corvette was not the only fiberglass vehicle Harley Earl poroduced a concept car for this year. The 1953 Buick Wildcat I was a fiberglass body concept from Buick, it's shared quite a bid of styling with the Corvette and would show off the GM's Fireball V8",
           "The inline six-cylinder 'Blue Flame' motor was also referred to as the 'Stovebolt' by GM's engineering team. This is because the bolts used resembled those used on wood stoves at the time",
           "This was the first production vehicle, GM or otherwise, to be produced with a fiberglass body",
+          "The EX-122 is currently the oldest known Corvette to exist, it is owned by and proudly displayed at <a href=\"https://www.cioccacorvette.com/\" target=\"_blank\">Ciocca Corvette (formerly Kerbeck Corvette)</a>, the worlds largest Corvette dealership, in Atlantic City, NJ",
           "Just 4 days prior to the reveal of the EX-122 at GM Motorama, GM management informed the styling team that the American flag in the corvette emblem had to be removed for legal reasons. The emblem was changed overnight, after which the checkered flag remained, and the American flag was replaced with a red flag showcasing a gold fleur-de-lis and Chevrolet bow-tie",
           "The first 25 Corvettes came equipped with Chevrolet Bel Air wheel covers, after which a faux knock-off style was used"
         ]

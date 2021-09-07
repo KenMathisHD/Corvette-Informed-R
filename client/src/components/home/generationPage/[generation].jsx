@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { getGenerationData } from "../data/generationsData";
+import { getGenerationData } from "../../../data/generationsData";
 
 class Generation extends Component {
   state = {

@@ -37,14 +37,19 @@
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-  padding: 0.75rem 0;
+  padding: 1.5rem 0;
 }
 .tab-content .genInfo p {
   padding-bottom: 1rem;
   font-size: 20px;
   line-height: 145%;
 }
-.tab-content .genInfo img {
+.tab-content .genInfo figure {
+  float: right;
+  max-width: 90%;
+  text-align: center;
+}
+.tab-content .genInfo figure img {
   max-width: 100%;
   border: 2px solid white;
 }

@@ -1,9 +1,12 @@
 import React, { Component } from "react";
-import { searchOptions, getGalleryImages } from "../data/galleryService";
-import { paginate } from "../data/paginate";
+import {
+  searchOptions,
+  getGalleryImages,
+} from "../../data/services/galleryService";
+import { paginate } from "../../data/paginate";
 import Pagination from "./pagination";
-import Select from "./common/select";
-import * as api from "../data/apiEndpoints.json";
+import Select from "../common/select";
+import * as api from "../../data/apiEndpoints.json";
 
 class Gallery extends Component {
   state = {
@@ -20,12 +23,12 @@ class Gallery extends Component {
       body: "",
     },
     shownImages: [],
-    selectedImage: "",
+    selectedImage: {},
   };
 
   async componentDidMount() {
     const { data: images } = await getGalleryImages(`${api.gallery}`);
-    const selectedImage = images[0].url;
+    const selectedImage = { url: images[0].url, alt: images[0].alt };
     this.setState({ images: images, selectedImage: selectedImage });
   }
 
@@ -82,8 +85,9 @@ class Gallery extends Component {
     );
   }
 
-  handleImageSelect = (imageUrl) => {
-    this.setState({ selectedImage: imageUrl });
+  handleImageSelect = (imageUrl, imageAlt) => {
+    const selectedImage = { url: imageUrl, alt: imageAlt };
+    this.setState({ selectedImage: selectedImage });
   };
 
   getPageData = () => {
@@ -108,15 +112,7 @@ class Gallery extends Component {
       <div className="gallery-cont">
         <h1>Corvette Gallery</h1>
         <div className="currentImage">
-          <div
-            style={{
-              backgroundImage: `url(${
-                !selectedImage
-                  ? "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-chevrolet-corvette-lead2-1571234772.jpg?crop=0.837xw:0.627xh;0.0577xw,0.219xh&amp;resize=1200:*"
-                  : selectedImage
-              })`,
-            }}
-          ></div>
+          <img src={selectedImage.url} alt={selectedImage.alt} />
         </div>
         <div className="drop-cont">
           <button className="btn-danger" onClick={this.handleReset}>
@@ -129,21 +125,18 @@ class Gallery extends Component {
           {this.renderSelect("submodel", searchOptions("submodel", data))}
           {this.renderSelect("body", searchOptions("body", data))}
 
-          {/* <button className="btn-primary" onClick={this.handleSearch}>
-            Search
-          </button> */}
           <span className="imageCounter">{totalCount} Images</span>
         </div>
         <div className="gallery-item-cont">
           {data.map((image, index) => (
-            <div
-              key={image.alt}
-              className="gallery-item"
-              alt={image.alt}
-              style={{ backgroundImage: `url(${image.url})` }}
-              index={index}
-              onClick={() => this.handleImageSelect(image.url)}
-            ></div>
+            <div className="gallery-item">
+              <img
+                src={image.url}
+                alt={image.alt}
+                index={index}
+                onClick={() => this.handleImageSelect(image.url, image.alt)}
+              />
+            </div>
           ))}
         </div>
         <Pagination
