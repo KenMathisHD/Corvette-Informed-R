@@ -1,0 +1,47 @@
+@import "../../../tokens/breakpoints/breakpoints.scss";
+
+.generations {
+  a {
+    display: block;
+    width: 100%;
+  }
+}
+
+.generations {
+  width: 97.5%;
+  margin: 20px auto;
+
+  a {
+    margin-top: 20px;
+  }
+}
+// @media (min-width: $ci-breakpoint-mobile) {
+//   .generations {
+//   }
+// }
+@media (min-width: $ci-breakpoint-tablet) {
+  .generations {
+    margin: 30px auto;
+
+    a {
+      margin-top: 30px;
+    }
+  }
+}
+@media (min-width: $ci-breakpoint-laptop) {
+  .generations {
+    width: 957px;
+    margin: 40px auto;
+
+    a {
+      margin-top: 40px;
+    }
+  }
+}
+
+@media (min-width: $ci-breakpoint-desktop) {
+  .generations {
+    width: 67.65%;
+    min-width: 1000px;
+  }
+}

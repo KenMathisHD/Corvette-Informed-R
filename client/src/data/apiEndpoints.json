@@ -1,4 +1,5 @@
 {
     "years": "/getyear",
-    "gallery": "/getGalleryLinks"
+    "gallery": "/getGalleryLinks",
+    "generations": "/getGenerations"
 }

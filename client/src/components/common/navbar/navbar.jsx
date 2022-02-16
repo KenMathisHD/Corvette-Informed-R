@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./navbar.scss";
 
 const NavBar = () => {
   const navData = {
@@ -24,7 +25,7 @@ const NavBar = () => {
   };
   return (
     <div className="header">
-      <span>Corvette Informed</span>
+      <h1>Corvette Informed</h1>
       <nav className="nav justify-content-center">
         {navData.links.map((link, index) => (
           <Link className="nav-link" key={index} to={link.path}>

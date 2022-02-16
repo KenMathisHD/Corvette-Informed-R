@@ -1,0 +1,73 @@
+@import "../../../tokens/breakpoints/breakpoints.scss";
+.header {
+  background: inherit;
+  color: inherit;
+
+  h1 {
+    display: block;
+    font-family: GrandSportSemital, Verdana, Tahoma;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 0;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    background-color: #c6383b;
+    border: 2px solid black;
+
+    .nav-link {
+      display: block;
+      padding: 1rem 0.25rem;
+      text-decoration: none;
+      color: white;
+      font-size: 12px;
+      // transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      //   border-color 0.15s ease-in-out;
+    }
+  }
+}
+
+@media (min-width: $ci-breakpoint-mobile) {
+  .header {
+    .nav {
+      .nav-link {
+        padding: 1rem 1rem;
+      }
+    }
+  }
+}
+@media (min-width: $ci-breakpoint-tablet) {
+  .header {
+    h1 {
+      font-size: 2rem;
+    }
+    .nav {
+      .nav-link {
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media (min-width: $ci-breakpoint-laptop) {
+  .header {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+}
+@media (min-width: $ci-breakpoint-desktop) {
+  .header {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@import "../../tokens/breakpoints/breakpoints.scss";
+.ci-home-generations {
+  font-size: 16px;
+  line-height: 1em;
+  width: 97.5%;
+  margin: 20px auto;
+
+  a {
+    margin-top: 20px;
+  }
+}
+@media (min-width: $ci-breakpoint-mobile) {
+  .ci-home-generations {
+    font-size: 24px;
+  }
+}
+@media (min-width: $ci-breakpoint-tablet) {
+  .ci-home-generations {
+    font-size: 32px;
+    margin: 30px auto;
+
+    a {
+      margin-top: 30px;
+    }
+  }
+}
+@media (min-width: $ci-breakpoint-laptop) {
+  .ci-home-slides {
+    width: 980px;
+  }
+  .ci-home-generations {
+    font-size: 42px;
+    width: 957px;
+    margin: 40px auto;
+
+    a {
+      margin-top: 40px;
+    }
+  }
+}
+
+@media (min-width: $ci-breakpoint-desktop) {
+  .ci-home-slides {
+    width: 70%;
+    min-width: 1024px;
+  }
+  .ci-home-generations {
+    width: 67.65%;
+    min-width: 1000px;
+    font-size: 3rem;
+  }
+}

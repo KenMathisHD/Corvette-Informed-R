@@ -1,6 +1,8 @@
 import React from "react";
+import "./slides.scss";
 
-function Slides(props) {
+const Slides = (props) => {
+  const { className } = props;
   const slidesData = [
     "http://www.corvetteinformed.com/Images/1C7ZR1SlideshowPic1.jpg",
     "http://www.corvetteinformed.com/Images/C6Slideshow.jpg",
@@ -11,28 +13,14 @@ function Slides(props) {
     "http://www.corvetteinformed.com/Images/C1%20Slideshow%20Pic.jpg",
   ];
   return (
-    <div className="slideimagescont">
+    <div className={`slideimagescont ${className}`}>
       <div className="fadein slideimages" title="Corvette Image Slideshow">
         {slidesData.map((slide, index) => (
-          <img key={index} src={slide} alt={`C${slidesData.length - index}`} />
-          // <div
-          //   key={index}
-          //   style={{
-          //     backgroundImage: `url(${slide})`,
-          //   }}
-          // ></div>
+          <img key={index} src={slide} />
         ))}
       </div>
-      {/* <div className="slideHeroText"> */}
-      {/* <h2>Corvette - America's Sports Car</h2>
-        <p>
-          An enthusiasts guide to over 67 years of performance history -
-          specifications, options, features and more
-        </p> */}
-      {/* <a href="#">Learn More</a> */}
-      {/* </div> */}
     </div>
   );
-}
+};
 
 export default Slides;

@@ -1,4 +1,5 @@
 import React from "react";
+import "./pagefooter.scss";
 
 const PageFooter = () => {
   const footerData = {
