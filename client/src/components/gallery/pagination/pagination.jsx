@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import _ from "lodash";
-import { Link } from "react-router-dom";
+import "./pagination.scss";
 
 class Pagination extends Component {
   render() {

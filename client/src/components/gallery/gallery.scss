@@ -31,34 +31,16 @@
 
   .currentImage {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 580px;
+    width: 100%;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border: 1px solid black;
-
-    img {
-      position: absolute;
-      min-width: 101%;
-      min-height: 101%;
-    }
   }
-
-  // .currentImage {
-  //   max-width: 1024px;
-  //   padding: 0 4rem 2rem;
-
-  //   > div {
-  //     padding-bottom: 60%;
-  //     background-repeat: no-repeat;
-  //     background-position: center;
-  //     background-size: cover;
-  //     border: 2px solid silver;
-  //   }
-  // }
 
   .drop-cont {
     position: relative;
@@ -105,7 +87,7 @@
     display: grid;
     align-items: start;
     grid-template-rows: repeat(4, 130px);
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(5, 200px);
     grid-row-gap: 10px;
     grid-column-gap: 10px;
 
