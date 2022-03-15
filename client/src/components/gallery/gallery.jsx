@@ -3,10 +3,12 @@ import {
   searchOptions,
   getGalleryImages,
 } from "../../data/services/galleryService";
-import Pagination from "./pagination";
+import Pagination from "./pagination/pagination";
 import Select from "../common/select";
 import * as api from "../../data/apiEndpoints.json";
 import { paginate } from "./../../utils/functions";
+
+import "./gallery.scss";
 
 class Gallery extends Component {
   state = {
@@ -94,9 +96,10 @@ class Gallery extends Component {
     return (
       <div className="gallery-cont">
         <h1>Corvette Gallery</h1>
-        <div className="currentImage">
-          <img src={selectedImage.url} alt={selectedImage.alt} />
-        </div>
+        <div
+          className="currentImage"
+          style={{ backgroundImage: `url(${selectedImage.url})` }}
+        ></div>
         <div className="drop-cont">
           <button className="btn-danger" onClick={this.handleReset}>
             Reset

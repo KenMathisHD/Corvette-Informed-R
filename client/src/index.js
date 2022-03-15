@@ -8,8 +8,6 @@ import "./styles/common/pageFooter.css";
 import "./styles/home/generation/genPage.css";
 import "./styles/home/generation/year/yearPage.css";
 import "./styles/home/generation/year/yearTabs.css";
-import "./styles/gallery/gallery.css";
-import "./styles/gallery/pagination.css";
 import "./styles/notFound.css";
 import "./styles/news-forums/newsandforums.css";
 
