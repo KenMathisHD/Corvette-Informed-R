@@ -3,33 +3,28 @@ import {
   searchOptions,
   getGalleryImages,
 } from "../../data/services/galleryService";
-import { paginate } from "../../data/paginate";
 import Pagination from "./pagination";
 import Select from "../common/select";
 import * as api from "../../data/apiEndpoints.json";
+import { paginate } from "./../../utils/functions";
 
 class Gallery extends Component {
   state = {
     images: [],
     pageSize: 20,
     currentPage: 1,
-    searchParams: [],
     searchResults: [],
-    options: {
-      type: "",
-      year: "",
-      color: "",
-      submodel: "",
-      body: "",
-    },
+    options: {},
     shownImages: [],
     selectedImage: {},
   };
 
   async componentDidMount() {
     const { data: images } = await getGalleryImages(`${api.gallery}`);
-    const selectedImage = { url: images[0].url, alt: images[0].alt };
-    this.setState({ images: images, selectedImage: selectedImage });
+    this.setState({
+      images,
+      selectedImage: { url: images[0].url, alt: images[0].alt },
+    });
   }
 
   handlePageChange = (page) => {
@@ -37,76 +32,64 @@ class Gallery extends Component {
   };
 
   handleReset = () => {
-    const options = { type: "", year: "", color: "", submodel: "", body: "" };
     this.setState({
-      options,
+      options: {},
       currentPage: 1,
-      searchParams: [],
       searchResults: [],
     });
   };
 
   handleSearch = (options) => {
-    const { images } = this.state;
-    let results = [...images];
-    const searchParams = [];
+    let searchResults = [...this.state.images];
 
-    Object.entries(options).forEach(([value]) => {
-      if (options[value]) {
-        results = [...results.filter((y) => y[value] === options[value])];
-        searchParams.push(options[value]);
-      }
-    });
-    this.setState({ searchParams, searchResults: results, options });
+    for (const prop in options) {
+      searchResults = [
+        ...searchResults.filter((y) => y[prop] === options[prop]),
+      ];
+    }
+    this.setState({ searchResults, options });
   };
 
-  updateOptions = (target, dropList) => {
-    const { name, value } = target;
+  updateOptions = (target) => {
     const options = { ...this.state.options };
-    if (dropList.indexOf(value) === -1) {
-      options[name] = "";
+    if (!target.value) {
+      delete options[target.name];
     } else {
-      options[name] = value;
+      options[target.name] = target.value;
     }
 
     this.handleSearch(options);
   };
 
-  renderSelect(name, dropDownList) {
+  renderSelect(name, dropDownList, index) {
     const { options } = this.state;
 
     return (
       <Select
         name={name}
-        value={options[name]}
+        value={options[name] ? options[name] : name}
         onChange={this.updateOptions}
         dropDownList={dropDownList}
+        key={index}
       ></Select>
     );
   }
 
   handleImageSelect = (imageUrl, imageAlt) => {
-    const selectedImage = { url: imageUrl, alt: imageAlt };
-    this.setState({ selectedImage: selectedImage });
+    this.setState({ selectedImage: { url: imageUrl, alt: imageAlt } });
   };
 
   getPageData = () => {
-    const {
-      pageSize,
-      currentPage,
-      images: allImages,
-      searchParams,
-      searchResults,
-    } = this.state;
+    const { pageSize, currentPage, images, searchResults } = this.state;
 
-    const filtered = searchParams.length > 0 ? searchResults : allImages;
-    const images = paginate(filtered, currentPage, pageSize);
-    return { totalCount: filtered.length, data: images };
+    const filtered = searchResults.length > 0 ? searchResults : images;
+    const pageImages = paginate(filtered, currentPage, pageSize);
+    return { totalCount: filtered.length, data: pageImages, filtered };
   };
 
   render() {
     const { pageSize, currentPage, selectedImage } = this.state;
-    const { totalCount, data } = this.getPageData();
+    const { totalCount, data, filtered } = this.getPageData();
 
     return (
       <div className="gallery-cont">
@@ -119,17 +102,20 @@ class Gallery extends Component {
             Reset
           </button>
 
-          {this.renderSelect("type", searchOptions("type", data))}
-          {this.renderSelect("year", searchOptions("year", data))}
-          {this.renderSelect("color", searchOptions("color", data))}
-          {this.renderSelect("submodel", searchOptions("submodel", data))}
-          {this.renderSelect("body", searchOptions("body", data))}
+          {["type", "year", "color", "submodel", "body"].map(
+            (selector, index) =>
+              this.renderSelect(
+                selector,
+                searchOptions(selector, filtered),
+                index
+              )
+          )}
 
           <span className="imageCounter">{totalCount} Images</span>
         </div>
         <div className="gallery-item-cont">
           {data.map((image, index) => (
-            <div className="gallery-item">
+            <div className="gallery-item" key={index}>
               <img
                 src={image.url}
                 alt={image.alt}
