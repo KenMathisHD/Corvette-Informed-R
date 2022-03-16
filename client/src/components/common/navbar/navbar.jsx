@@ -17,10 +17,10 @@ const NavBar = () => {
         label: "News and Forums",
         path: "/newsandforums",
       },
-      {
-        label: "About Me",
-        path: "/aboutme",
-      },
+      // {
+      //   label: "About Me",
+      //   path: "/aboutme",
+      // },
     ],
   };
   return (
