@@ -1,57 +1,55 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { getGenerationData } from "../../../data/generationsData";
 
-class Generation extends Component {
-  state = {
-    generation: { ...getGenerationData(this.props.match.params.generation) },
+function Generation(props) {
+  const [generationObj, setGenerationObj] = useState(null);
+  const genProp = props.match.params.generation;
+
+  useEffect(async () => {
+    const result = await getGenerationData(genProp);
+    setGenerationObj(result);
+  }, []);
+
+  const setColString = (arr) => {
+    return arr.length > 4
+      ? "auto auto auto auto"
+      : arr
+          .map(() => {
+            return "auto";
+          })
+          .join(" ");
   };
 
-  setColString = () => {
-    let colString = "";
-    for (let i = 0; i < this.state.generation.years.length; i++) {
-      colString += "auto ";
-    }
-    return colString;
-  };
-
-  render() {
-    const { generation } = this.state;
-    const genPath = `/corvette/${this.props.match.params.generation}`;
-    const templateColums =
-      generation.years.length > 1 && generation.years.length < 4
-        ? this.setColString()
-        : "auto auto auto auto";
-
+  if (!generationObj) {
+    return <span>Loading, please wait</span>;
+  } else {
     return (
       <section className="grid-cont">
         <div className="grid-title">
-          <h1>{generation.name} Generation</h1>
+          <h1>{generationObj.name} Generation</h1>
         </div>
         <div
           className="cG cGc7"
-          style={{ backgroundImage: generation.backgroundImage }}
+          style={{ backgroundImage: generationObj.backgroundImage }}
         >
           <div
             id="grid"
             className="grid"
-            style={
-              generation.years.length > 1
-                ? {
-                    justifyContent: "space-evenly",
-                    gridTemplateColumns: templateColums,
-                  }
-                : { justifyContent: "center", gridTemplateColumns: "auto" }
-            }
+            style={{
+              justifyContent:
+                generationObj.years.length > 1 ? "space-evenly" : "center",
+              gridTemplateColumns: setColString(generationObj.years),
+            }}
           >
-            {generation.years.map((year, index) => (
+            {generationObj.years.map((year, index) => (
               <Link
                 key={index}
-                to={genPath + year.path}
+                to={`/corvette/${genProp}` + year.path}
                 style={{
-                  backgroundColor: generation.backgroundColor,
-                  color: generation.fontColor,
-                  borderColor: generation.fontColor,
+                  backgroundColor: generationObj.backgroundColor,
+                  color: generationObj.fontColor,
+                  borderColor: generationObj.fontColor,
                 }}
               >
                 {year.year}

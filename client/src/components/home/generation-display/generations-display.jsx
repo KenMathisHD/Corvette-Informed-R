@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./generations-display.scss";
 import GenerationDisplayTile from "./generation-display-tile/generation-display-tile";
+import "./generations-display.scss";
 
 const GenerationsDisplay = (props) => {
   const { className, generations } = props;
-  const rootPath = "/corvette";
 
   return (
     <div
@@ -14,7 +13,7 @@ const GenerationsDisplay = (props) => {
     >
       {generations.map(({ path, imgSrc, alt, label }, index) => {
         return (
-          <Link key={index} to={rootPath + path}>
+          <Link key={index} to={"/corvette" + path}>
             <GenerationDisplayTile
               src={imgSrc}
               alt={alt}

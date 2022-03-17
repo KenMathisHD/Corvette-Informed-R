@@ -6,10 +6,7 @@ import "./index.css";
 import "./styles/styles.css";
 import "./styles/common/pageFooter.css";
 import "./styles/home/generation/genPage.css";
-import "./styles/home/generation/year/yearPage.css";
-import "./styles/home/generation/year/yearTabs.css";
 import "./styles/notFound.css";
-import "./styles/news-forums/newsandforums.css";
 
 // import "bootstrap/dist/css/bootstrap.css";
 import App from "./App";

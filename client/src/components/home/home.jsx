@@ -10,17 +10,15 @@ class Home extends Component {
 
   async componentDidMount() {
     const { data: genData } = await axios.get(`${api.generations}/`);
-    console.log(genData);
     this.setState({ genData: genData });
   }
 
   render() {
-    const { genData } = this.state;
     return (
       <div className="container">
         <Slides className="ci-home-slides"></Slides>
         <GenerationsDisplay
-          generations={genData}
+          generations={this.state.genData}
           className="ci-home-generations"
         ></GenerationsDisplay>
       </div>

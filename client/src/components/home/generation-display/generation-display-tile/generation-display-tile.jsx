@@ -3,7 +3,7 @@ import "./generation-display-tile.scss";
 
 const GenerationDisplayTile = (props) => {
   const { src, alt, label } = props;
-  console.log(label);
+
   return (
     <div className="ci-generation-display-wrapper">
       <div

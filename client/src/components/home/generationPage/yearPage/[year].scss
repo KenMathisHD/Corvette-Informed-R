@@ -1,0 +1,29 @@
+.year-cont {
+  width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.year-title {
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+
+  > h1 {
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 10px;
+    margin: 0.25em 0;
+    // text-shadow: black 5px 0px 20px;
+  }
+}
+
+.img-cont-year {
+  display: block;
+  width: 100%;
+  padding-bottom: 56.25%;
+  outline: 3px solid black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(233, 39, 14);
+}

@@ -1,49 +1,36 @@
-import React, { Component } from "react";
-import YearTabs from "./yearTabs";
+import React, { useState, useEffect } from "react";
+import YearTabs from "./yearTabs/yearTabs";
 import axios from "../../../../data/services/axiosService";
 import * as api from "../../../../data/apiEndpoints.json";
+import "./[year].scss";
 
-class Year extends Component {
-  state = {
-    yearData: {},
-    activeTab: "",
-    didMount: "false",
-  };
+function Year(props) {
+  const [yearData, setYearData] = useState(null);
 
-  async componentDidMount() {
-    const year = this.props.match.params.year;
-    const { data: yearData } = await axios.get(`${api.years}/${year}`);
-    const didmount = "true";
-    this.setState({ yearData: yearData[0], didMount: didmount });
-  }
+  useEffect(async () => {
+    const { data: yearData } = await axios.get(
+      `${api.years}/${props.match.params.year}`
+    );
+    setYearData(yearData[0]);
+  }, []);
 
-  onClickTabItem = (tab) => {
-    this.setState({ activeTab: tab });
-  };
-  render() {
-    const { yearData, activeTab, didMount } = this.state;
-    if (didMount === "false") {
-      return null;
-    } else {
-      return (
-        <div className="grid-cont">
-          <div className="grid-title dispfont">
-            <h1>{yearData.year} Model Year</h1>
-          </div>
-
-          <div
-            className="img-cont-year"
-            style={{ backgroundImage: yearData.imgSrc }}
-          ></div>
-
-          <YearTabs
-            yearData={yearData}
-            activeTab={activeTab}
-            onClick={this.onClickTabItem}
-          ></YearTabs>
+  if (!yearData) {
+    return <span>Loading, please wait</span>;
+  } else {
+    return (
+      <div className="year-cont">
+        <div className="year-title">
+          <h1>{yearData.year} Model Year</h1>
         </div>
-      );
-    }
+
+        <div
+          className="img-cont-year"
+          style={{ backgroundImage: yearData.imgSrc }}
+        ></div>
+
+        <YearTabs yearData={yearData}></YearTabs>
+      </div>
+    );
   }
 }
 
