@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { getGenerationData } from "../../../data/generationsData";
+import "./[generation].scss";
 
 function Generation(props) {
   const [generationObj, setGenerationObj] = useState(null);
@@ -12,36 +13,41 @@ function Generation(props) {
   }, []);
 
   const setColString = (arr) => {
-    return arr.length > 4
-      ? "auto auto auto auto"
-      : arr
-          .map(() => {
-            return "auto";
-          })
-          .join(" ");
+    if (arr.length > 4) {
+      return null;
+    }
+    return arr
+      .map(() => {
+        return "auto";
+      })
+      .join(" ");
+  };
+
+  const gridStyleObj = (generationObj) => {
+    const styles = {
+      justifyContent:
+        generationObj.years.length > 1 ? "space-evenly" : "center",
+    };
+    if (setColString(generationObj.years)) {
+      styles.gridTemplateColumns = setColString(generationObj.years);
+    }
+    return {
+      justifyContent:
+        generationObj.years.length > 1 ? "space-evenly" : "center",
+    };
   };
 
   if (!generationObj) {
     return <span>Loading, please wait</span>;
   } else {
     return (
-      <section className="grid-cont">
-        <div className="grid-title">
-          <h1>{generationObj.name} Generation</h1>
-        </div>
+      <section className="gen-page-cont">
+        <h1 className="grid-title">{generationObj.name} Generation</h1>
         <div
-          className="cG cGc7"
+          className="grid-cont"
           style={{ backgroundImage: generationObj.backgroundImage }}
         >
-          <div
-            id="grid"
-            className="grid"
-            style={{
-              justifyContent:
-                generationObj.years.length > 1 ? "space-evenly" : "center",
-              gridTemplateColumns: setColString(generationObj.years),
-            }}
-          >
+          <div id="grid" className="grid" style={gridStyleObj(generationObj)}>
             {generationObj.years.map((year, index) => (
               <Link
                 key={index}
@@ -51,6 +57,7 @@ function Generation(props) {
                   color: generationObj.fontColor,
                   borderColor: generationObj.fontColor,
                 }}
+                className="link"
               >
                 {year.year}
               </Link>

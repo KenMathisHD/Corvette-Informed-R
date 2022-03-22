@@ -6,10 +6,10 @@
   h1 {
     display: block;
     font-family: GrandSportSemital, Verdana, Tahoma;
-    font-size: 1.5rem;
-    width: 100%;
-    margin: 0;
-    padding: 1.5rem;
+    font-size: 1.75rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.15rem;
+    padding: 1.5rem 0;
     text-align: center;
   }
 
@@ -29,7 +29,7 @@
       padding: 1rem 0.25rem;
       text-decoration: none;
       color: white;
-      font-size: 12px;
+      font-size: 1rem;
       // transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
       //   border-color 0.15s ease-in-out;
     }
@@ -38,6 +38,9 @@
 
 @media (min-width: $ci-breakpoint-mobile) {
   .header {
+    h1 {
+      font-size: 2rem;
+    }
     .nav {
       .nav-link {
         padding: 1rem 1rem;
@@ -52,7 +55,7 @@
     }
     .nav {
       .nav-link {
-        font-size: 16px;
+        font-size: 1.25rem;
       }
     }
   }
@@ -60,14 +63,14 @@
 @media (min-width: $ci-breakpoint-laptop) {
   .header {
     h1 {
-      font-size: 2.5rem;
+      padding: 1.5rem 0;
     }
   }
 }
 @media (min-width: $ci-breakpoint-desktop) {
   .header {
     h1 {
-      font-size: 3.5rem;
+      font-size: 2.5rem;
     }
   }
 }

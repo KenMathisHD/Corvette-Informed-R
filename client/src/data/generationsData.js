@@ -307,8 +307,8 @@ const generationsPageData = [
   {
     generation: "c1",
     name: "First ",
-    backgroundColor: "rgb(233, 233, 231)",
-    fontColor: "rgb(233, 49, 6)",
+    backgroundColor: "rgb(233, 49, 6)",
+    fontColor: "rgb(233, 233, 231)",
     years: [
       {
         year: "1953",

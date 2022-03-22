@@ -6,7 +6,7 @@ import Year from "./home/generationPage/yearPage/[year]";
 import Generation from "./home/generationPage/[generation]";
 import Gallery from "./gallery/gallery";
 import NewsAndForums from "./news-forums/newsAndForums";
-import NotFound from "./notfound";
+import NotFound from "./notFound/notFound";
 
 const Routes = () => {
   return (
