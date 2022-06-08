@@ -4,37 +4,33 @@ import PropTypes from "prop-types";
 import _ from "lodash";
 import "./pagination.scss";
 
-class Pagination extends Component {
-  render() {
-    const { itemsCount, pageSize, currentPage, onPageChange } = this.props;
-    const pagesCount = itemsCount / pageSize;
-    if (pagesCount <= 1) return null;
-    const pages = _.range(1, pagesCount + 1);
+const Pagination = (props) => {
+  const { itemsCount, pageSize, currentPage, onPageChange } = props;
+  const pagesCount = itemsCount / pageSize;
+  if (pagesCount <= 1) return null;
+  const pages = _.range(1, pagesCount + 1);
 
-    return (
-      <nav>
-        <ul className="pagination pagination-lg">
-          {pages.map((page) => (
-            <li
-              key={page}
-              className={
-                page === currentPage ? "page-item active" : "page-item"
-              }
+  return (
+    <nav>
+      <ul className="pagination pagination-lg">
+        {pages.map((page) => (
+          <li
+            key={page}
+            className={page === currentPage ? "page-item active" : "page-item"}
+          >
+            <Link
+              className="page-link"
+              to="#"
+              onClick={() => onPageChange(page)}
             >
-              <Link
-                className="page-link"
-                to="#"
-                onClick={() => onPageChange(page)}
-              >
-                {page}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    );
-  }
-}
+              {page}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  );
+};
 
 Pagination.propTypes = {
   itemsCount: PropTypes.number.isRequired,

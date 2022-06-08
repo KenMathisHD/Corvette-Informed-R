@@ -13,6 +13,7 @@ import "./gallery.scss";
 class Gallery extends Component {
   state = {
     images: [],
+    imgsLoaded: false,
     pageSize: 20,
     currentPage: 1,
     searchResults: [],
@@ -30,7 +31,7 @@ class Gallery extends Component {
   }
 
   handlePageChange = (page) => {
-    this.setState({ currentPage: page });
+    this.setState({ currentPage: page, imgsLoaded: false });
   };
 
   handleReset = () => {
@@ -89,17 +90,27 @@ class Gallery extends Component {
     return { totalCount: filtered.length, data: pageImages, filtered };
   };
 
+  isLoaded = (imgLength, dataLength) => {
+    if (imgLength === dataLength) {
+      this.setState({ imgsLoaded: true });
+    }
+  };
+
   render() {
-    const { pageSize, currentPage, selectedImage } = this.state;
-    const { totalCount, data, filtered } = this.getPageData();
+    const { pageSize, currentPage, selectedImage, imgsLoaded } = this.state;
+    const { totalCount, filtered, data } = this.getPageData();
+    const imgsLoadedCount = [];
 
     return (
       <div className="gallery-cont">
         <h1>Corvette Gallery</h1>
-        <div
-          className="currentImage"
-          style={{ backgroundImage: `url(${selectedImage.url})` }}
-        ></div>
+        <div className="currentImage">
+          <img
+            src={selectedImage.url}
+            alt={selectedImage.alt}
+            style={{ display: selectedImage ? "block" : "none" }}
+          />
+        </div>
         <div className="drop-cont">
           <button className="btn-danger" onClick={this.handleReset}>
             Reset
@@ -117,16 +128,29 @@ class Gallery extends Component {
           <span className="imageCounter">{totalCount} Images</span>
         </div>
         <div className="gallery-item-cont">
-          {data.map((image, index) => (
-            <div className="gallery-item" key={index}>
-              <img
-                src={image.url}
-                alt={image.alt}
-                index={index}
-                onClick={() => this.handleImageSelect(image.url, image.alt)}
-              />
-            </div>
-          ))}
+          {data.map((image, index) => {
+            return (
+              <div
+                className="gallery-item"
+                key={index}
+                style={imgsLoaded ? {} : { display: "none" }}
+              >
+                <img
+                  src={image.url}
+                  alt={image.alt}
+                  index={index}
+                  onClick={() => this.handleImageSelect(image.url, image.alt)}
+                  onLoad={() => {
+                    imgsLoadedCount.push(index);
+                    this.isLoaded(imgsLoadedCount.length, data.length);
+                  }}
+                />
+              </div>
+            );
+          })}
+          <div className="span" style={imgsLoaded ? { display: "none" } : {}}>
+            <div className="dashboard"></div>
+          </div>
         </div>
         <Pagination
           itemsCount={totalCount}
