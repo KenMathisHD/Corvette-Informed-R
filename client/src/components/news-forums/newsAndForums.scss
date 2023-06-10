@@ -16,6 +16,42 @@
     text-align: center;
   }
 
+  .events-list-cont {
+    margin: 0 2% 3rem;
+
+    .event-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 2rem 0;
+      list-style: none;
+
+      li {
+        margin-bottom: 1.5rem;
+      }
+
+      .event-link {
+        list-style: none;
+        display: inline-block;
+        color: inherit;
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        padding-bottom: 0.25rem;
+        border-bottom: 1px dashed BLACK;
+
+        &:hover {
+          color: gray;
+          border-bottom-color: gray;
+        }
+
+        h3 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+
   .news-list-cont {
     margin: 0 2% 3rem;
 

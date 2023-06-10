@@ -6,21 +6,49 @@ import * as api from "../../data/apiEndpoints.json";
 function NewsAndForums() {
   const [forums, setForums] = useState([]);
   const [news, setNews] = useState([]);
-  const [events, setEvents] = useState([]);
+  const [eventResp, setEventResp] = useState([]);
 
   useEffect(() => {
     (async () => {
-      const { data: images } = await getTCACalendarEvents(`${api.events}`);
-      setEvents([images]);
+      const { data } = await getTCACalendarEvents(`${api.events}`);
+      setEventResp(data);
     })();
     setForums([...getForums()]);
     setNews([...getNews()]);
   }, []);
 
-  console.log(events);
+  console.log(eventResp);
+
+  const { events, month, year } = eventResp;
+
+  console.log(eventResp.events);
 
   return (
     <div className="newsandforums-cont">
+      <div className="events-list-cont">
+        <h2 className="newsForumH2">Upcoming TCA Events</h2>
+        <ul className="event-list">
+          {events
+            ? events.map((event, index) => (
+                <li key={index}>
+                  <a
+                    href={event.href}
+                    className="event-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <h3>{event.title}</h3>
+                    <span>
+                      {event.dateDay}, {month} {event.date}, {year} -{" "}
+                      {event.location}
+                    </span>
+                  </a>
+                  <p>{event.description}</p>
+                </li>
+              ))
+            : "Loading Calendar..."}
+        </ul>
+      </div>
       <div className="news-list-cont">
         <h2 className="newsForumH2">Corvette News Sites</h2>
         <ul className="news-list">
