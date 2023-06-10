@@ -13,9 +13,11 @@ async function getTCACalendarEvents() {
 
     const result = await page.evaluate(() => {
       const calendarEvents = {};
-      calendarEvents.month = document.querySelector(
-        "#ctl00_ctl00_event_list_repeater_list_month_header_0"
-      ).innerText;
+      const monthYear = document
+        .querySelector("#ctl00_ctl00_event_list_repeater_list_month_header_0")
+        .innerText.match(/^(\w+),\s(\d{4})$/);
+      calendarEvents.month = monthYear[1];
+      calendarEvents.year = monthYear[2];
       const tempEvents = document.querySelectorAll(".list-event-container");
       calendarEvents.events = [...tempEvents].map((e) => {
         const link = e.querySelector("a");
