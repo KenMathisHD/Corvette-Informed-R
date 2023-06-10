@@ -1,5 +1,8 @@
 const express = require("express");
 const app = express();
+const router = express.Router();
+const puppeteer = require("puppeteer");
+const puppeteerController = require("./puppeteer/Controller");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const YearModel = require("./models/yeardata");
@@ -18,6 +21,18 @@ db.once("open", function () {
   console.log("Connection Successful!");
 });
 
+app.get("/getEvents", puppeteerController.getPage);
+
+// app.get("/getEvents", async (req, res) => {
+//   try {
+//     let resp = await getTCACalendarEvents();
+//     return res.status(200).send(resp);
+//   } catch (e) {
+//     return res.status(400).send({
+//       error: "not-found",
+//     });
+//   }
+// });
 app.get("/getGalleryLinks", async (req, res) => {
   GalleryModel.find({}, (err, result) => {
     if (err) {
