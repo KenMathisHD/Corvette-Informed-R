@@ -10,7 +10,7 @@ function NewsAndForums() {
 
   useEffect(() => {
     (async () => {
-      const { data: images } = await getTCACalendarEvents(`${api.gallery}`);
+      const { data: images } = await getTCACalendarEvents(`${api.events}`);
       setEvents([images]);
     })();
     setForums([...getForums()]);
