@@ -1,16 +1,23 @@
 import React, { useState, useEffect } from "react";
-import { getForums } from "../../data/forumsData";
-import { getNews } from "../../data/newsData";
+import { getForums, getNews, getTCACalendarEvents } from "../../data";
 import "./newsAndForums.scss";
+import * as api from "../../data/apiEndpoints.json";
 
 function NewsAndForums() {
   const [forums, setForums] = useState([]);
   const [news, setNews] = useState([]);
+  const [events, setEvents] = useState([]);
 
   useEffect(() => {
+    (async () => {
+      const { data: images } = await getTCACalendarEvents(`${api.gallery}`);
+      setEvents([images]);
+    })();
     setForums([...getForums()]);
     setNews([...getNews()]);
   }, []);
+
+  console.log(events);
 
   return (
     <div className="newsandforums-cont">
@@ -55,7 +62,7 @@ function NewsAndForums() {
         ))}
       </div>
 
-      <div class="museum">
+      <div className="museum">
         <h2>Visit the museum!</h2>
         <a href="https://www.corvettemuseum.org/">
           Corvette Museum in Bowling Greene, KY
