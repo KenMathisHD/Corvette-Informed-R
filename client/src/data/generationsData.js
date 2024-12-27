@@ -9,6 +9,22 @@ const generationsPageData = [
         year: "2020",
         path: "/2020",
       },
+      {
+        year: "2021",
+        path: "/2021",
+      },
+      {
+        year: "2022",
+        path: "/2022",
+      },
+      {
+        year: "2023",
+        path: "/2023",
+      },
+      {
+        year: "2024",
+        path: "/2024",
+      },
     ],
     // backgroundImage:
     //   "url(https://media4.s-nbcnews.com/i/newscms/2020_08/3241236/200223-chevy-c8-cs-158p_ee63ca035f5144382d5dbbe3aea81192.jpg)",

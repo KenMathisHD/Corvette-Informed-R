@@ -10,10 +10,10 @@ const GallerySchema = new mongoose.Schema(
     submodel: { type: String, required: true },
     body: { type: String, required: true },
   },
-  { collection: "galleryLinks" }
+  { collection: "gallery" }
 );
 
-const GalleryModel = mongoose.model("galleryLinks", GallerySchema);
+const GalleryModel = mongoose.model("gallery", GallerySchema);
 // created model, passing name of collection and the schema we created
 
 module.exports = GalleryModel;

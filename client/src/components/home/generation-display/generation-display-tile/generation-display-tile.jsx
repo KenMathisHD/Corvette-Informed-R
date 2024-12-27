@@ -6,10 +6,7 @@ const GenerationDisplayTile = (props) => {
 
   return (
     <div className="ci-generation-display-wrapper">
-      <div
-        className="ci-generation-display"
-        title="Generation Selection Boxes C1 - C7"
-      >
+      <div className="ci-generation-display" title="Generation Selection Boxes">
         <img src={src} alt={alt} />
         <div className="genText" id={alt}>
           <span>{label.gen}</span>
