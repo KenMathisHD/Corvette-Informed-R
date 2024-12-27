@@ -156,9 +156,9 @@
       -moz-transform-origin: 1px 1px;
       transform-origin: 1px 1px;
       background-color: rgba(0, 0, 0, 1);
-      -webkit-animation: dashboard_hand 2s linear infinite alternate;
-      -moz-animation: dashboard_hand 2s linear infinite alternate;
-      animation: dashboard_hand 2s linear infinite alternate;
+      -webkit-animation: dashboard_hand 1.2s linear infinite alternate;
+      -moz-animation: dashboard_hand 1.2s linear infinite alternate;
+      animation: dashboard_hand 1.2s linear infinite alternate;
     }
     .dashboard:before {
       width: 50px;
