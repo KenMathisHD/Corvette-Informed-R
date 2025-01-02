@@ -1,6 +1,6 @@
 {
-    "years": "/getyear",
-    "gallery": "/getGalleryLinks",
-    "generations": "/getGenerations",
-    "events": "/getEvents"
+  "years": "/api/getyear",
+  "gallery": "/api/getGalleryLinks",
+  "generations": "/api/getGenerations",
+  "events": "/api/getEvents"
 }
