@@ -7,12 +7,16 @@ import "./[year].scss";
 function Year(props) {
   const [yearData, setYearData] = useState(null);
 
-  useEffect(async () => {
-    const { data: yearData } = await axios.get(
-      `${api.years}/${props.match.params.year}`
-    );
-    setYearData(yearData[0]);
-  }, []);
+  useEffect(() => {
+    async function fetchData() {
+      const { data: yearData } = await axios.get(
+        `${api.years}/${props.match.params.year}`
+      );
+      setYearData(yearData[0]);
+    }
+
+    fetchData();
+  });
 
   if (!yearData) {
     return <span>Loading, please wait</span>;

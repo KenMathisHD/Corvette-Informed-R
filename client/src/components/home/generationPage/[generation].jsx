@@ -7,10 +7,13 @@ function Generation(props) {
   const [generationObj, setGenerationObj] = useState(null);
   const genProp = props.match.params.generation;
 
-  useEffect(async () => {
-    const result = await getGenerationData(genProp);
-    setGenerationObj(result);
-  }, []);
+  useEffect(() => {
+    async function fetchData() {
+      const result = await getGenerationData(genProp);
+      setGenerationObj(result);
+    }
+    fetchData();
+  });
 
   const setColString = (arr) => {
     if (arr.length > 4) {
