@@ -21,9 +21,9 @@ db.once("open", function () {
   console.log("Connection Successful!");
 });
 
-app.get("/getEvents", puppeteerController.getPage);
+app.get("/api/getEvents", puppeteerController.getPage);
 
-// app.get("/getEvents", async (req, res) => {
+// app.get("/api/getEvents", async (req, res) => {
 //   try {
 //     let resp = await getTCACalendarEvents();
 //     return res.status(200).send(resp);
@@ -33,7 +33,7 @@ app.get("/getEvents", puppeteerController.getPage);
 //     });
 //   }
 // });
-app.get("/getGalleryLinks", async (req, res) => {
+app.get("/api/getGalleryLinks", async (req, res) => {
   GalleryModel.find({}, (err, result) => {
     if (err) {
       res.send(err);
@@ -43,7 +43,7 @@ app.get("/getGalleryLinks", async (req, res) => {
   });
 });
 
-app.get("/getyear/:id", async (req, res) => {
+app.get("/api/getyear/:id", async (req, res) => {
   const { id: year } = req.params;
 
   YearModel.find({ year: year }, (err, result) => {
@@ -55,7 +55,7 @@ app.get("/getyear/:id", async (req, res) => {
   });
 });
 
-app.get("/getGenerations", async (req, res) => {
+app.get("/api/getGenerations", async (req, res) => {
   GenerationsModel.find({}, (err, result) => {
     if (err) {
       res.send(err);
@@ -67,6 +67,6 @@ app.get("/getGenerations", async (req, res) => {
 
 const port = process.env.PORT || 5000;
 
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
   console.log(`Server running on port ${port}`);
 });
