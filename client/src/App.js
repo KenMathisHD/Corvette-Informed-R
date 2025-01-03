@@ -7,6 +7,8 @@ import { useState } from "react";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
+  console.log(process.env.REACT_APP_EXPRESS_SERVER);
+
   function handleModeChange(boolean) {
     if (boolean === true) {
       setDarkMode(true);
