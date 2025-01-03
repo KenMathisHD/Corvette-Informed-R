@@ -4,36 +4,36 @@ import "./pagefooter.scss";
 const PageFooter = () => {
   const footerData = {
     centerImg: {
-      img: "http://www.corvetteinformed.com/Images/PBottomCLogo.jpg",
+      img: "/images/PBottomCLogo.jpg",
       alt: "Corvette Logo Centerpiece",
     },
     socialImgs: [
       {
-        img: "http://www.corvetteinformed.com/Images/facebook.png",
+        img: "/images/facebook.png",
         path: "/",
         alt: "Facebook Logo",
         class: "socialImg",
       },
       {
-        img: "http://www.corvetteinformed.com/Images/twitter.png",
+        img: "/images/twitter.png",
         path: "/",
         alt: "Twitter Logo",
         class: "socialImg",
       },
       {
-        img: "http://www.corvetteinformed.com/Images/PBottomCLogo.jpg",
+        img: "/images/PBottomCLogo.jpg",
         path: "/",
         alt: "Corvette Logo Centerpiece",
         class: "centerImg",
       },
       {
-        img: "http://www.corvetteinformed.com/Images/instagram.jpg",
+        img: "/images/instagram.jpg",
         path: "/",
         alt: "Instagram Logo",
         class: "socialImg",
       },
       {
-        img: "http://www.corvetteinformed.com/Images/email.png",
+        img: "/images/email.png",
         path: "/",
         alt: "Email Photo",
         class: "socialImg",
