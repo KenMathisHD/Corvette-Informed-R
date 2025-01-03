@@ -1,0 +1,98 @@
+[
+  {
+    "_id": {
+      "$oid": "676e1fb8202d24a69b2150e6"
+    },
+    "path": "/c1",
+    "imgSrc": "/images/home/generations/C1-GenBox.jpg",
+    "alt": "C1 Corvette",
+    "label": {
+      "gen": "1st Generation",
+      "years": "1953-1962"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "676e2027202d24a69b2150e9"
+    },
+    "path": "/c2",
+    "imgSrc": "/images/home/generations/C2-GenBox.jpg",
+    "alt": "C2 Corvette",
+    "label": {
+      "gen": "2nd Generation",
+      "years": "1962-1967"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "676e203e202d24a69b2150eb"
+    },
+    "path": "/c3",
+    "imgSrc": "/images/home/generations/C3-GenBox.jpg",
+    "alt": "C3 Corvette",
+    "label": {
+      "gen": "3rd Generation",
+      "years": "1968-1982"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "676e2058202d24a69b2150ed"
+    },
+    "path": "/c4",
+    "imgSrc": "/images/home/generations/C4-GenBox.jpg",
+    "alt": "C4 Corvette",
+    "label": {
+      "gen": "4th Generation",
+      "years": "1984-1996"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "676e208c202d24a69b2150f0"
+    },
+    "path": "/c5",
+    "imgSrc": "/images/home/generations/C5-GenBox.jpg",
+    "alt": "C5 Corvette",
+    "label": {
+      "gen": "5th Generation",
+      "years": "1997-2004"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "676e20b2202d24a69b2150f2"
+    },
+    "path": "/c6",
+    "imgSrc": "/images/home/generations/C6-GenBox.jpg",
+    "alt": "C6 Corvette",
+    "label": {
+      "gen": "6th Generation",
+      "years": "2005-2013"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "676e20d8202d24a69b2150f4"
+    },
+    "path": "/c7",
+    "imgSrc": "/images/home/generations/C7-GenBox.jpg",
+    "alt": "C7 Corvette",
+    "label": {
+      "gen": "7th Generation",
+      "years": "2014-2019"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "676e2171202d24a69b2150f6"
+    },
+    "path": "/c8",
+    "imgSrc": "/images/home/generations/C8-GenBox.jpg",
+    "alt": "C8 Corvette",
+    "label": {
+      "gen": "8th Generation",
+      "years": "2020-Current"
+    }
+  }
+]

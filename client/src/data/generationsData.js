@@ -28,8 +28,7 @@ const generationsPageData = [
     ],
     // backgroundImage:
     //   "url(https://media4.s-nbcnews.com/i/newscms/2020_08/3241236/200223-chevy-c8-cs-158p_ee63ca035f5144382d5dbbe3aea81192.jpg)",
-    backgroundImage:
-      "url(https://cdn.motor1.com/images/mgl/P1j3K/s1/2020-chevrolet-corvette-first-drive.jpg)",
+    backgroundImage: "url(/images/generations/C8-Background.jpg)",
   },
   {
     generation: "c7",
@@ -62,8 +61,7 @@ const generationsPageData = [
         path: "/2019",
       },
     ],
-    backgroundImage:
-      "url(http://www.corvetteinformed.com/Images/C7Background.jpg)",
+    backgroundImage: "url(/images/generations/C7-Background.jpg)",
   },
   {
     generation: "c6",
@@ -108,8 +106,7 @@ const generationsPageData = [
         path: "/2013",
       },
     ],
-    backgroundImage:
-      "url(http://www.corvetteinformed.com/Images/C6Background.jpg)",
+    backgroundImage: "url(/images/generations/C6-Background.jpg)",
   },
   {
     generation: "c5",
@@ -150,8 +147,7 @@ const generationsPageData = [
         path: "/2004",
       },
     ],
-    backgroundImage:
-      "url(http://www.corvetteinformed.com/Images/C5Background.jpg)",
+    backgroundImage: "url(/images/generations/C5-Background.jpg)",
   },
   {
     generation: "c4",
@@ -212,8 +208,7 @@ const generationsPageData = [
         path: "/1996",
       },
     ],
-    backgroundImage:
-      "url(http://www.corvetteinformed.com/Images/C4Background.jpg)",
+    backgroundImage: "url(/images/generations/C4-Background.jpg)",
   },
   {
     generation: "c3",
@@ -282,8 +277,7 @@ const generationsPageData = [
         path: "/1982",
       },
     ],
-    backgroundImage:
-      "url(http://www.corvetteinformed.com/Images/C3Background.jpg)",
+    backgroundImage: "url(/images/generations/C3-Background.jpg)",
   },
   {
     generation: "c2",
@@ -317,8 +311,7 @@ const generationsPageData = [
         path: "/1967",
       },
     ],
-    backgroundImage:
-      "url(http://www.corvetteinformed.com/Images/C2Background.jpg)",
+    backgroundImage: "url(/images/generations/C2-Background.jpg)",
   },
   {
     generation: "c1",
@@ -367,8 +360,7 @@ const generationsPageData = [
         path: "/1962",
       },
     ],
-    backgroundImage:
-      "url(http://www.corvetteinformed.com/Images/C1Background.jpg)",
+    backgroundImage: "url(/images/generations/C1-Background.jpg)",
   },
 ];
 
