@@ -34,8 +34,8 @@ const Slides = (props) => {
     },
   ];
   return (
-    <div className={`slideimagescont ${className}`}>
-      <div className="fadein slideimages" title="Corvette Image Slideshow">
+    <div className={`slide-images-cont ${className}`}>
+      <div className="fade-in slide-images" title="Corvette Image Slideshow">
         {slidesData.map(({ img, alt }, index) => (
           <img key={index} src={img} alt={alt} />
         ))}

@@ -104,7 +104,7 @@ class Gallery extends Component {
     return (
       <div className="gallery-cont">
         <h1>Corvette Gallery</h1>
-        <div className="currentImage">
+        <div className="current-image">
           <img
             src={selectedImage.url}
             alt={selectedImage.alt}
@@ -125,7 +125,7 @@ class Gallery extends Component {
               )
           )}
 
-          <span className="imageCounter">{totalCount} Images</span>
+          <span className="image-counter">{totalCount} Images</span>
         </div>
         <div className="gallery-item-cont">
           {data.map((image, index) => {

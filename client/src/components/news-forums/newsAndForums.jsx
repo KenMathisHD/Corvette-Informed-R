@@ -24,9 +24,9 @@ function NewsAndForums() {
   console.log(eventResp.events);
 
   return (
-    <div className="newsandforums-cont">
+    <div className="news-and-forums-cont">
       <div className="events-list-cont">
-        <h2 className="newsForumH2">Upcoming TCA Events</h2>
+        <h2 className="news-forum-h2">Upcoming TCA Events</h2>
         <ul className="event-list">
           {events
             ? events.map((event, index) => (
@@ -50,7 +50,7 @@ function NewsAndForums() {
         </ul>
       </div>
       <div className="news-list-cont">
-        <h2 className="newsForumH2">Corvette News Sites</h2>
+        <h2 className="news-forum-h2">Corvette News Sites</h2>
         <ul className="news-list">
           {news.map((news, index) => (
             <li key={index}>
@@ -68,7 +68,7 @@ function NewsAndForums() {
       </div>
 
       <div>
-        <h2 className="newsForumH2">Check out the forums</h2>
+        <h2 className="news-forum-h2">Check out the forums</h2>
         {forums.map((forum, index) => (
           <div key={index} className="forums-list-cont">
             <h3>{forum.type}</h3>

@@ -33,10 +33,10 @@
     text-decoration: underline;
   }
 
-  .tabSection {
+  .tab-section {
     padding: 5rem 0;
   }
-  .genInfo {
+  .gen-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,7 +66,7 @@
     //   }
     // }
   }
-  .fifty50 {
+  .fifty-50 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -79,7 +79,7 @@
       margin-bottom: 0.5rem;
     }
 
-    .fiftychildren {
+    .fifty-children {
       flex: 0 0 46%;
       padding: 0.25rem;
 

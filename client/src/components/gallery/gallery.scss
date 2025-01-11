@@ -7,7 +7,7 @@
   padding: 0 16px;
 
   h1,
-  .currentImage,
+  .current-image,
   .drop-cont,
   .gallery-item-cont,
   .pagination > {
@@ -29,7 +29,7 @@
     text-align: center;
   }
 
-  .currentImage {
+  .current-image {
     position: relative;
     background-repeat: no-repeat;
     background-position: center;
@@ -76,7 +76,7 @@
       background-color: #0d6efd;
       border-color: #0d6efd;
     }
-    .imageCounter {
+    .image-counter {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;

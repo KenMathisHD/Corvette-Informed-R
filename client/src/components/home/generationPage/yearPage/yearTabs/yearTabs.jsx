@@ -7,7 +7,7 @@ function YearTabs(props) {
 
   const generalInfo = (tab) => {
     return tab.content.map((content, index) => (
-      <div className="genInfo" key={index}>
+      <div className="gen-info" key={index}>
         <p>{parse(content.text)}</p>
         <figure>
           <img src={content.image} alt={content.imageAlt} />
@@ -19,10 +19,10 @@ function YearTabs(props) {
 
   const factoryOptions = (tab) => {
     return (
-      <div className="fifty50">
+      <div className="fifty-50">
         {tab.content.map((content, index) => {
           return (
-            <div className="fiftychildren" key={index}>
+            <div className="fifty-children" key={index}>
               <h3>{content.label}</h3>
               <ul className="options-ul">
                 {content.data.map((data, index) => (
@@ -38,10 +38,10 @@ function YearTabs(props) {
 
   const perfSpec = (tab) => {
     return (
-      <div className="fifty50">
+      <div className="fifty-50">
         {tab.content.map((content, index) => {
           return (
-            <div className="fiftychildren" key={index}>
+            <div className="fifty-children" key={index}>
               <h3>{content.label}</h3>
               <ul className="options-ul">
                 {content.data.map((data, index) => (
@@ -57,10 +57,10 @@ function YearTabs(props) {
 
   const facts = (tab) => {
     return (
-      <ul className="fifty50">
+      <ul className="fifty-50">
         {tab.content.map((content, index) => {
           return (
-            <li key={index} className="fiftychildren">
+            <li key={index} className="fifty-children">
               {parse(content)}
             </li>
           );
@@ -102,7 +102,7 @@ function YearTabs(props) {
 
       <div className="tab-content">
         {yearData.listBoxes.map((tab, index) => (
-          <div key={index} id={tab.id} className="tabSection">
+          <div key={index} id={tab.id} className="tab-section">
             <h2>{tab.label}</h2>
             {tabs(tab)}
           </div>
