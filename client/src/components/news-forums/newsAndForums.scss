@@ -1,5 +1,6 @@
 .news-and-forums-cont {
-  width: 1024px;
+  width: 100%;
+  max-width: 1024px;
   margin: 3rem auto 4rem;
   color: inherit;
 
@@ -17,7 +18,7 @@
   }
 
   .events-list-cont {
-    margin: 0 2% 3rem;
+    padding: 0 1rem 3rem;
 
     .event-list {
       display: flex;
@@ -25,10 +26,7 @@
       justify-content: space-evenly;
       padding: 2rem 0;
       list-style: none;
-
-      li {
-        margin-bottom: 1.5rem;
-      }
+      gap: 2.5rem;
 
       .event-link {
         list-style: none;
@@ -40,6 +38,11 @@
         padding-bottom: 0.25rem;
         border-bottom: 1px dashed BLACK;
 
+        @media (max-width: 767px) {
+          text-align: center;
+          width: 100%;
+        }
+
         &:hover {
           color: gray;
           border-bottom-color: gray;
@@ -47,21 +50,23 @@
 
         h3 {
           font-size: 30px;
+          padding-bottom: 0.25rem;
         }
       }
     }
   }
 
   .news-list-cont {
-    margin: 0 2% 3rem;
+    padding: 0 1rem 3rem;
 
     .news-list {
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: center;
       list-style: none;
       padding: 2rem 0;
+      gap: 1rem 2rem;
 
       .news-link {
         display: inline-block;
@@ -78,45 +83,66 @@
     }
   }
 
-  .forums-list-cont {
-    display: inline-block;
-    width: 46%;
-    margin: 0 2%;
-
-    h3 {
-      margin: 0.5rem 0 0.5rem;
-      white-space: nowrap;
-      font-size: 32px;
-      padding-bottom: 3px;
-      border-bottom: 1px solid black;
-      text-align: center;
-    }
-
-    .forums-list {
+  .forums-cont {
+    padding: 0 1rem;
+    .forums-list-grid {
       display: grid;
-      list-style: none;
-      padding: 0;
-      text-align: center;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      justify-items: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 0 1rem;
 
-      .forum-link {
+      @media (max-width: 568px) {
+        grid-template-columns: 1fr;
+      }
+
+      .forums-list-cont {
         display: inline-block;
-        color: inherit;
-        text-decoration: none;
-        font-size: 25px;
-        text-align: left;
-        padding-bottom: 3px;
-        border-bottom: 1px dashed black;
-        &:hover {
-          color: gray;
-          border-bottom-color: gray;
+        width: 100%;
+
+        h3 {
+          margin: 0.5rem 0 0.5rem;
+          white-space: nowrap;
+          font-size: 32px;
+          padding-bottom: 3px;
+          border-bottom: 1px solid black;
+          text-align: center;
+        }
+
+        .forums-list {
+          display: grid;
+          list-style: none;
+          padding: 0;
+          text-align: center;
+          row-gap: 0.75rem;
+
+          .forum-link {
+            display: inline-block;
+            color: inherit;
+            text-decoration: none;
+            font-size: 25px;
+            text-align: center;
+            border-bottom: 1px dashed black;
+            &:hover {
+              color: gray;
+              border-bottom-color: gray;
+            }
+          }
         }
       }
     }
   }
 
   .museum {
-    margin-top: 90px;
+    padding: 90px 1rem 0;
     text-align: center;
+
+    h2 {
+      padding-bottom: 1rem;
+    }
 
     a {
       font-size: 1.5rem;

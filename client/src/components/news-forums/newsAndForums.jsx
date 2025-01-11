@@ -67,27 +67,29 @@ function NewsAndForums() {
         </ul>
       </div>
 
-      <div>
+      <div className="forums-cont">
         <h2 className="news-forum-h2">Check out the forums</h2>
-        {forums.map((forum, index) => (
-          <div key={index} className="forums-list-cont">
-            <h3>{forum.type}</h3>
-            <ul className="forums-list">
-              {forum.list.map((forum, index) => (
-                <li key={index}>
-                  <a
-                    href={forum.url}
-                    className="forum-link"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    {forum.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+        <div className="forums-list-grid">
+          {forums.map((forum, index) => (
+            <div key={index} className="forums-list-cont">
+              <h3>{forum.type}</h3>
+              <ul className="forums-list">
+                {forum.list.map((forum, index) => (
+                  <li key={index}>
+                    <a
+                      href={forum.url}
+                      className="forum-link"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {forum.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </div>
 
       <div className="museum">
